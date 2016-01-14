@@ -1,0 +1,14 @@
+PODS:
+  - QWToast (0.1.0)
+
+DEPENDENCIES:
+  - QWToast (from `../`)
+
+EXTERNAL SOURCES:
+  QWToast:
+    :path: ../
+
+SPEC CHECKSUMS:
+  QWToast: 5493b0f8587cbf2eba97b22a39bf11e996fabc88
+
+COCOAPODS: 0.39.0

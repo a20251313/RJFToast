@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'QWToast_Example', :exclusive => true do
+  pod "QWToast", :path => "../"
+end
+
+target 'QWToast_Tests', :exclusive => true do
+  pod "QWToast", :path => "../"
+
+  
+end

@@ -1,0 +1,6 @@
+framework module QWToast {
+  umbrella header "QWToast-umbrella.h"
+
+  export *
+  module * { export * }
+}

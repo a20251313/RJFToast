@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0B97079D92E904D9D309CE0A4B4661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		0F7472718AB25CCDA0443D62565D8122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		0F8636B95B80019144B6F49F287F0A26 /* ACNavBarDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = F97756F0267FE539DE749238913C73BC /* ACNavBarDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C657D720FD89F6929A67F530947A9E3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D45A3A402C197A3C3CDEEC8AE43DA2 /* ReplaceMe.m */; };
+		1EC3C97E129A62D1C26955ED1017A407 /* NoteBanner+QWDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA0BED35A643083CF07D33C634A7A7C /* NoteBanner+QWDrawer.m */; };
+		1EE4DFB5E707DAD6B6390A637A62B461 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AFF7D13F8A8816F17501EA044E957D /* Media.xcassets */; };
+		1F19DE1B1A108F8911FCEB98EA727070 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		20EDCCF99846FE7636A95E8C4C9126A7 /* ACNavBarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 951BA20133222772B6CF773355B0D801 /* ACNavBarDrawer.m */; };
+		2571336F961ECD80D7A5315D8CF1E51E /* Pods-QWToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E7BDAB367E5E0E24F85337E48CC81 /* Pods-QWToast_Tests-dummy.m */; };
+		3890832B15C69581AD811A16CFD4786D /* Pods-QWToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 088D3B8F4160918FD9F6BACB40DD5501 /* Pods-QWToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FF55473B51346CC2D7EC025471CB8FF /* Pods-QWToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D423F5A5D2697B450EEEC7EB303626D /* Pods-QWToast_Example-dummy.m */; };
+		8A098A93AD68A9B2167B2802870245FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		9C20753EF85EC8000BC8C4F263F730AA /* NoteBanner+QWDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFE46AF222EA504A282A412BB72B735 /* NoteBanner+QWDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1EF252BCA316437509C02FFA0490025 /* NoteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DF09CA374D27D2A84B39E0EB2F245D /* NoteBanner.m */; };
+		AF78CC56E8D07F4E0124BDEFEF4C5B08 /* BannerMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = 049E69896DCAD72987E4C8EAD716610A /* BannerMananger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B633795644A5E6572DD2A22DAD7479F9 /* QWToast.h in Headers */ = {isa = PBXBuildFile; fileRef = BE468475C4AF743B064E8600CE5B9FA8 /* QWToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5F5AECFFD9AF11CA1D47D80CC5528DF /* BannerMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EEA82B4FB09FE48369F2CE1DC567CB /* BannerMananger.m */; };
+		CE5CA4D9FC28F2746872119430E18605 /* Pods-QWToast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 677A18D82C95559EE858A4D2BB11371F /* Pods-QWToast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D79F0C0869237E1A02637F716082C621 /* NoteBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = C36CFE28F841CBEA2BA4EADED9156A1D /* NoteBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F816D6C449B61B7B0183B9F4F1C8D95A /* QWToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2680AD29402FA3A5FED31F50F7141323 /* QWToast-dummy.m */; };
+		FA86C071DCA3337A2C3DD2D56D9BD178 /* QWToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF62E4CAF33A320D673F9669579FF54 /* QWToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD565B7A3958E680FE7D0BF43CA738BE /* QWToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AD258BB5445EA1CE88B763CA689AD8C /* QWToast.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E1B6036DD112592F15514B9A7B3D76E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F15079671709DAE28C05DD8F6899423;
+			remoteInfo = QWToast;
+		};
+		BB189906AE76FE612AB026EFCBE10025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A339AB94DFB4FD0E2D594F577B4CE366;
+			remoteInfo = "QWToast-QWToast";
+		};
+		D4EDC81EC42614D1369FC3477CF01BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F15079671709DAE28C05DD8F6899423;
+			remoteInfo = QWToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049E69896DCAD72987E4C8EAD716610A /* BannerMananger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BannerMananger.h; sourceTree = "<group>"; };
+		07E0298D08EAC35D6CC503A185889C2D /* Pods-QWToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		088D3B8F4160918FD9F6BACB40DD5501 /* Pods-QWToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWToast_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1370E6301DE63B78D216A73B700438A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13A125C214D6E0E0F7B770A59B01A981 /* QWToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QWToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13EADE2745F0222DCB1DB3E31F8E77C6 /* Pods_QWToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2680AD29402FA3A5FED31F50F7141323 /* QWToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QWToast-dummy.m"; sourceTree = "<group>"; };
+		29188A0D8448CA0D884590C3510D8183 /* QWToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWToast-prefix.pch"; sourceTree = "<group>"; };
+		2AD258BB5445EA1CE88B763CA689AD8C /* QWToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DF09CA374D27D2A84B39E0EB2F245D /* NoteBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteBanner.m; sourceTree = "<group>"; };
+		3EFCE7420ABF65F4C18442001209568E /* Pods-QWToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3F0E7BDAB367E5E0E24F85337E48CC81 /* Pods-QWToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Tests-dummy.m"; sourceTree = "<group>"; };
+		3F913F7D04262818115228A325823EB0 /* Pods-QWToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF62E4CAF33A320D673F9669579FF54 /* QWToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWToast-umbrella.h"; sourceTree = "<group>"; };
+		5067EAE29380E85DCD444DA04DEB5808 /* QWToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QWToast.modulemap; sourceTree = "<group>"; };
+		533769D3015E49CBDCDBBDC7260FCD32 /* Pods-QWToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-resources.sh"; sourceTree = "<group>"; };
+		5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWToast.xcconfig; sourceTree = "<group>"; };
+		66EEA82B4FB09FE48369F2CE1DC567CB /* BannerMananger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BannerMananger.m; sourceTree = "<group>"; };
+		677A18D82C95559EE858A4D2BB11371F /* Pods-QWToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWToast_Example-umbrella.h"; sourceTree = "<group>"; };
+		6D423F5A5D2697B450EEEC7EB303626D /* Pods-QWToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Example-dummy.m"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		711B3752D52559B0247E7E0FF64379AA /* Pods_QWToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71F315D3416B4603ED4D388AA10DDC63 /* Pods-QWToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QWToast_Tests.modulemap"; sourceTree = "<group>"; };
+		72D45A3A402C197A3C3CDEEC8AE43DA2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		7FFE46AF222EA504A282A412BB72B735 /* NoteBanner+QWDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoteBanner+QWDrawer.h"; sourceTree = "<group>"; };
+		8DCE77FE2A9B52767FDCE4530F8416E4 /* Pods-QWToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		92AFF7D13F8A8816F17501EA044E957D /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		94A053B2BF3E1B739AFD2E2145FD0293 /* Pods-QWToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.release.xcconfig"; sourceTree = "<group>"; };
+		951BA20133222772B6CF773355B0D801 /* ACNavBarDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ACNavBarDrawer.m; sourceTree = "<group>"; };
+		96B13B62041F0351C18287C6D6C8C29C /* Pods-QWToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QWToast_Example.modulemap"; sourceTree = "<group>"; };
+		9BB0E3E4CE1F021AB051E27E7393BED9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F3BC710FC663EC5687393B3C8A5F00 /* Pods-QWToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE468475C4AF743B064E8600CE5B9FA8 /* QWToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QWToast.h; sourceTree = "<group>"; };
+		C2779706FCD7F78BC81B72D15735CDF0 /* Pods-QWToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C36CFE28F841CBEA2BA4EADED9156A1D /* NoteBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteBanner.h; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C659B104BEE500DF7827FE28458CD8AC /* Pods-QWToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C67608EFFBB6FC6FB1D0C56BDFC6BB6B /* Pods-QWToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-resources.sh"; sourceTree = "<group>"; };
+		CA920B62C934B57E46E9AED02A9D28D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAA0BED35A643083CF07D33C634A7A7C /* NoteBanner+QWDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NoteBanner+QWDrawer.m"; sourceTree = "<group>"; };
+		F97756F0267FE539DE749238913C73BC /* ACNavBarDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ACNavBarDrawer.h; sourceTree = "<group>"; };
+		FD714AC80FDBE6CB2D53E2A23C07B074 /* Pods-QWToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FE7EAB447F1EF5C9DC841E282E7A098E /* Pods-QWToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A6F04B9DB84E5330577BF6C1AA79C72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93ED2EEE6A2191210FBC4C7CA9EB074C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0B97079D92E904D9D309CE0A4B4661 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE3A60B99D6C39FE430C6ADBF753A4E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F7472718AB25CCDA0443D62565D8122 /* Foundation.framework in Frameworks */,
+				1F19DE1B1A108F8911FCEB98EA727070 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF9A4CC4BC4149C230FD48FAA0A512AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A098A93AD68A9B2167B2802870245FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07045E1645A46EC1450E27E6EE142958 /* Pods-QWToast_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9BB0E3E4CE1F021AB051E27E7393BED9 /* Info.plist */,
+				96B13B62041F0351C18287C6D6C8C29C /* Pods-QWToast_Example.modulemap */,
+				FE7EAB447F1EF5C9DC841E282E7A098E /* Pods-QWToast_Example-acknowledgements.markdown */,
+				8DCE77FE2A9B52767FDCE4530F8416E4 /* Pods-QWToast_Example-acknowledgements.plist */,
+				6D423F5A5D2697B450EEEC7EB303626D /* Pods-QWToast_Example-dummy.m */,
+				A3F3BC710FC663EC5687393B3C8A5F00 /* Pods-QWToast_Example-frameworks.sh */,
+				C67608EFFBB6FC6FB1D0C56BDFC6BB6B /* Pods-QWToast_Example-resources.sh */,
+				677A18D82C95559EE858A4D2BB11371F /* Pods-QWToast_Example-umbrella.h */,
+				3F913F7D04262818115228A325823EB0 /* Pods-QWToast_Example.debug.xcconfig */,
+				94A053B2BF3E1B739AFD2E2145FD0293 /* Pods-QWToast_Example.release.xcconfig */,
+			);
+			name = "Pods-QWToast_Example";
+			path = "Target Support Files/Pods-QWToast_Example";
+			sourceTree = "<group>";
+		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		36CB2D150D39272692E8034E183E9F8B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8DDE2622DC30E17200ADB3BA206F7941 /* Assets */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E58D0A2905A290F120C525BCB725EF2 /* Pods-QWToast_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CA920B62C934B57E46E9AED02A9D28D2 /* Info.plist */,
+				71F315D3416B4603ED4D388AA10DDC63 /* Pods-QWToast_Tests.modulemap */,
+				FD714AC80FDBE6CB2D53E2A23C07B074 /* Pods-QWToast_Tests-acknowledgements.markdown */,
+				C659B104BEE500DF7827FE28458CD8AC /* Pods-QWToast_Tests-acknowledgements.plist */,
+				3F0E7BDAB367E5E0E24F85337E48CC81 /* Pods-QWToast_Tests-dummy.m */,
+				3EFCE7420ABF65F4C18442001209568E /* Pods-QWToast_Tests-frameworks.sh */,
+				533769D3015E49CBDCDBBDC7260FCD32 /* Pods-QWToast_Tests-resources.sh */,
+				088D3B8F4160918FD9F6BACB40DD5501 /* Pods-QWToast_Tests-umbrella.h */,
+				07E0298D08EAC35D6CC503A185889C2D /* Pods-QWToast_Tests.debug.xcconfig */,
+				C2779706FCD7F78BC81B72D15735CDF0 /* Pods-QWToast_Tests.release.xcconfig */,
+			);
+			name = "Pods-QWToast_Tests";
+			path = "Target Support Files/Pods-QWToast_Tests";
+			sourceTree = "<group>";
+		};
+		58D83885C41F88CF5ED4032471E4343B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				36CB2D150D39272692E8034E183E9F8B /* Pod */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6A5EFA0D37622211A60D0765A80AEC2D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F97756F0267FE539DE749238913C73BC /* ACNavBarDrawer.h */,
+				951BA20133222772B6CF773355B0D801 /* ACNavBarDrawer.m */,
+				049E69896DCAD72987E4C8EAD716610A /* BannerMananger.h */,
+				66EEA82B4FB09FE48369F2CE1DC567CB /* BannerMananger.m */,
+				C36CFE28F841CBEA2BA4EADED9156A1D /* NoteBanner.h */,
+				33DF09CA374D27D2A84B39E0EB2F245D /* NoteBanner.m */,
+				7FFE46AF222EA504A282A412BB72B735 /* NoteBanner+QWDrawer.h */,
+				CAA0BED35A643083CF07D33C634A7A7C /* NoteBanner+QWDrawer.m */,
+				BE468475C4AF743B064E8600CE5B9FA8 /* QWToast.h */,
+				72D45A3A402C197A3C3CDEEC8AE43DA2 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7AABA936D815AF2C9836EA68BFD0E4F6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3AF456E92C1FBDC54443B0A93CE7BA6 /* QWToast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				7AABA936D815AF2C9836EA68BFD0E4F6 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				B3EC23E7A6BD68F328759BC796D2AC5E /* Products */,
+				D736927E8DD966577723EA6BF4D3A847 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8DDE2622DC30E17200ADB3BA206F7941 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				92AFF7D13F8A8816F17501EA044E957D /* Media.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B3EC23E7A6BD68F328759BC796D2AC5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				711B3752D52559B0247E7E0FF64379AA /* Pods_QWToast_Example.framework */,
+				13EADE2745F0222DCB1DB3E31F8E77C6 /* Pods_QWToast_Tests.framework */,
+				2AD258BB5445EA1CE88B763CA689AD8C /* QWToast.bundle */,
+				13A125C214D6E0E0F7B770A59B01A981 /* QWToast.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D736927E8DD966577723EA6BF4D3A847 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07045E1645A46EC1450E27E6EE142958 /* Pods-QWToast_Example */,
+				4E58D0A2905A290F120C525BCB725EF2 /* Pods-QWToast_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0ED6F66A6D29584D50FCCAA5E1D59C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1370E6301DE63B78D216A73B700438A0 /* Info.plist */,
+				5067EAE29380E85DCD444DA04DEB5808 /* QWToast.modulemap */,
+				5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */,
+				2680AD29402FA3A5FED31F50F7141323 /* QWToast-dummy.m */,
+				29188A0D8448CA0D884590C3510D8183 /* QWToast-prefix.pch */,
+				4DF62E4CAF33A320D673F9669579FF54 /* QWToast-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QWToast";
+			sourceTree = "<group>";
+		};
+		F3AF456E92C1FBDC54443B0A93CE7BA6 /* QWToast */ = {
+			isa = PBXGroup;
+			children = (
+				FE3C57426BB21B81243DA224DD434C42 /* Pod */,
+				58D83885C41F88CF5ED4032471E4343B /* Resources */,
+				E0ED6F66A6D29584D50FCCAA5E1D59C5 /* Support Files */,
+			);
+			name = QWToast;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FE3C57426BB21B81243DA224DD434C42 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6A5EFA0D37622211A60D0765A80AEC2D /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		06BE1BCD2C7A9629EB3B77D2E176D3CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F8636B95B80019144B6F49F287F0A26 /* ACNavBarDrawer.h in Headers */,
+				AF78CC56E8D07F4E0124BDEFEF4C5B08 /* BannerMananger.h in Headers */,
+				9C20753EF85EC8000BC8C4F263F730AA /* NoteBanner+QWDrawer.h in Headers */,
+				D79F0C0869237E1A02637F716082C621 /* NoteBanner.h in Headers */,
+				FA86C071DCA3337A2C3DD2D56D9BD178 /* QWToast-umbrella.h in Headers */,
+				B633795644A5E6572DD2A22DAD7479F9 /* QWToast.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FF383713C2B6EE62FAF0A045372CDD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE5CA4D9FC28F2746872119430E18605 /* Pods-QWToast_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8182EE8FC89CB4A87724499BE3511E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3890832B15C69581AD811A16CFD4786D /* Pods-QWToast_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F7C7563B8546CB3BAC3B09B76EB13F9 /* Pods-QWToast_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB703B5C2B39D50664A6CE6596AAB610 /* Build configuration list for PBXNativeTarget "Pods-QWToast_Tests" */;
+			buildPhases = (
+				4B6ACCE7419909839C6C951D343F1064 /* Sources */,
+				93ED2EEE6A2191210FBC4C7CA9EB074C /* Frameworks */,
+				FB8182EE8FC89CB4A87724499BE3511E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98836419A723E02225467697238C85F8 /* PBXTargetDependency */,
+			);
+			name = "Pods-QWToast_Tests";
+			productName = "Pods-QWToast_Tests";
+			productReference = 13EADE2745F0222DCB1DB3E31F8E77C6 /* Pods_QWToast_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F15079671709DAE28C05DD8F6899423 /* QWToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 654F21DF9C04D38CA8CC0376585C27B6 /* Build configuration list for PBXNativeTarget "QWToast" */;
+			buildPhases = (
+				E1145227D0B911B2FB791B99811B47AF /* Sources */,
+				AE3A60B99D6C39FE430C6ADBF753A4E9 /* Frameworks */,
+				F2BECCBCD673ED6DFFBBA6E224BBCC48 /* Resources */,
+				06BE1BCD2C7A9629EB3B77D2E176D3CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71C0A8E3902A557562B24C4CC1A15C27 /* PBXTargetDependency */,
+			);
+			name = QWToast;
+			productName = QWToast;
+			productReference = 13A125C214D6E0E0F7B770A59B01A981 /* QWToast.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A257370B5BAE821CDCB9F61A72DFD208 /* Pods-QWToast_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC21DF1ABC4147B9AC7C20C6AD936541 /* Build configuration list for PBXNativeTarget "Pods-QWToast_Example" */;
+			buildPhases = (
+				1E9327280C5FD56F8028997955CA8A8D /* Sources */,
+				BF9A4CC4BC4149C230FD48FAA0A512AB /* Frameworks */,
+				77FF383713C2B6EE62FAF0A045372CDD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1268F70C261EFB62B64B1602C0F71102 /* PBXTargetDependency */,
+			);
+			name = "Pods-QWToast_Example";
+			productName = "Pods-QWToast_Example";
+			productReference = 711B3752D52559B0247E7E0FF64379AA /* Pods_QWToast_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A339AB94DFB4FD0E2D594F577B4CE366 /* QWToast-QWToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2DD9C8EEB4BBE0316D9BDAED9F70814 /* Build configuration list for PBXNativeTarget "QWToast-QWToast" */;
+			buildPhases = (
+				506809784C4F0B21EB678C1ED8E246FE /* Sources */,
+				3A6F04B9DB84E5330577BF6C1AA79C72 /* Frameworks */,
+				915D7CC14773A4A3CF583CC54266BED4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "QWToast-QWToast";
+			productName = "QWToast-QWToast";
+			productReference = 2AD258BB5445EA1CE88B763CA689AD8C /* QWToast.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B3EC23E7A6BD68F328759BC796D2AC5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A257370B5BAE821CDCB9F61A72DFD208 /* Pods-QWToast_Example */,
+				1F7C7563B8546CB3BAC3B09B76EB13F9 /* Pods-QWToast_Tests */,
+				6F15079671709DAE28C05DD8F6899423 /* QWToast */,
+				A339AB94DFB4FD0E2D594F577B4CE366 /* QWToast-QWToast */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		915D7CC14773A4A3CF583CC54266BED4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EE4DFB5E707DAD6B6390A637A62B461 /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2BECCBCD673ED6DFFBBA6E224BBCC48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD565B7A3958E680FE7D0BF43CA738BE /* QWToast.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E9327280C5FD56F8028997955CA8A8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FF55473B51346CC2D7EC025471CB8FF /* Pods-QWToast_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B6ACCE7419909839C6C951D343F1064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2571336F961ECD80D7A5315D8CF1E51E /* Pods-QWToast_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506809784C4F0B21EB678C1ED8E246FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1145227D0B911B2FB791B99811B47AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20EDCCF99846FE7636A95E8C4C9126A7 /* ACNavBarDrawer.m in Sources */,
+				C5F5AECFFD9AF11CA1D47D80CC5528DF /* BannerMananger.m in Sources */,
+				1EC3C97E129A62D1C26955ED1017A407 /* NoteBanner+QWDrawer.m in Sources */,
+				A1EF252BCA316437509C02FFA0490025 /* NoteBanner.m in Sources */,
+				F816D6C449B61B7B0183B9F4F1C8D95A /* QWToast-dummy.m in Sources */,
+				1C657D720FD89F6929A67F530947A9E3 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1268F70C261EFB62B64B1602C0F71102 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QWToast;
+			target = 6F15079671709DAE28C05DD8F6899423 /* QWToast */;
+			targetProxy = 8E1B6036DD112592F15514B9A7B3D76E /* PBXContainerItemProxy */;
+		};
+		71C0A8E3902A557562B24C4CC1A15C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QWToast-QWToast";
+			target = A339AB94DFB4FD0E2D594F577B4CE366 /* QWToast-QWToast */;
+			targetProxy = BB189906AE76FE612AB026EFCBE10025 /* PBXContainerItemProxy */;
+		};
+		98836419A723E02225467697238C85F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QWToast;
+			target = 6F15079671709DAE28C05DD8F6899423 /* QWToast */;
+			targetProxy = D4EDC81EC42614D1369FC3477CF01BDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0491DA210F6DBE64FE2F2D7F0344BD9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07E0298D08EAC35D6CC503A185889C2D /* Pods-QWToast_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QWToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWToast_Tests/Pods-QWToast_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QWToast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1D371C24B083B3595D7B2A286638710D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94A053B2BF3E1B739AFD2E2145FD0293 /* Pods-QWToast_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QWToast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWToast_Example/Pods-QWToast_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QWToast_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DA25A49EB41BB690FFBF2A59911DB6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QWToast/QWToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QWToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QWToast/QWToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = QWToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		87AA1BFCB41B47AA2DC877BB2B69B8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2779706FCD7F78BC81B72D15735CDF0 /* Pods-QWToast_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QWToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWToast_Tests/Pods-QWToast_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QWToast_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AB572E098A13E922F8D16DFD3D4B4C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = QWToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		B11432258051AA61FF7BE1B8419DEC5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F913F7D04262818115228A325823EB0 /* Pods-QWToast_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-QWToast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QWToast_Example/Pods-QWToast_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_QWToast_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D5DBC3E94BD9B17C7517742B13C5EFE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = QWToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DFB0799B032E04B78359F073036C8E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/QWToast/QWToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QWToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QWToast/QWToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = QWToast;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		654F21DF9C04D38CA8CC0376585C27B6 /* Build configuration list for PBXNativeTarget "QWToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFB0799B032E04B78359F073036C8E44 /* Debug */,
+				6DA25A49EB41BB690FFBF2A59911DB6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC21DF1ABC4147B9AC7C20C6AD936541 /* Build configuration list for PBXNativeTarget "Pods-QWToast_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B11432258051AA61FF7BE1B8419DEC5E /* Debug */,
+				1D371C24B083B3595D7B2A286638710D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2DD9C8EEB4BBE0316D9BDAED9F70814 /* Build configuration list for PBXNativeTarget "QWToast-QWToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5DBC3E94BD9B17C7517742B13C5EFE5 /* Debug */,
+				8AB572E098A13E922F8D16DFD3D4B4C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB703B5C2B39D50664A6CE6596AAB610 /* Build configuration list for PBXNativeTarget "Pods-QWToast_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0491DA210F6DBE64FE2F2D7F0344BD9F /* Debug */,
+				87AA1BFCB41B47AA2DC877BB2B69B8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
