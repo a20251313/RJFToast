@@ -10,7 +10,6 @@
 		0E0B97079D92E904D9D309CE0A4B4661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 		0F7472718AB25CCDA0443D62565D8122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 		0F8636B95B80019144B6F49F287F0A26 /* ACNavBarDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = F97756F0267FE539DE749238913C73BC /* ACNavBarDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C657D720FD89F6929A67F530947A9E3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 72D45A3A402C197A3C3CDEEC8AE43DA2 /* ReplaceMe.m */; };
 		1EC3C97E129A62D1C26955ED1017A407 /* NoteBanner+QWDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA0BED35A643083CF07D33C634A7A7C /* NoteBanner+QWDrawer.m */; };
 		1EE4DFB5E707DAD6B6390A637A62B461 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AFF7D13F8A8816F17501EA044E957D /* Media.xcassets */; };
 		1F19DE1B1A108F8911FCEB98EA727070 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
@@ -79,7 +78,6 @@
 		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		711B3752D52559B0247E7E0FF64379AA /* Pods_QWToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F315D3416B4603ED4D388AA10DDC63 /* Pods-QWToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QWToast_Tests.modulemap"; sourceTree = "<group>"; };
-		72D45A3A402C197A3C3CDEEC8AE43DA2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		7FFE46AF222EA504A282A412BB72B735 /* NoteBanner+QWDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoteBanner+QWDrawer.h"; sourceTree = "<group>"; };
 		8DCE77FE2A9B52767FDCE4530F8416E4 /* Pods-QWToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		92AFF7D13F8A8816F17501EA044E957D /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
@@ -219,7 +217,6 @@
 				7FFE46AF222EA504A282A412BB72B735 /* NoteBanner+QWDrawer.h */,
 				CAA0BED35A643083CF07D33C634A7A7C /* NoteBanner+QWDrawer.m */,
 				BE468475C4AF743B064E8600CE5B9FA8 /* QWToast.h */,
-				72D45A3A402C197A3C3CDEEC8AE43DA2 /* ReplaceMe.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -492,7 +489,6 @@
 				1EC3C97E129A62D1C26955ED1017A407 /* NoteBanner+QWDrawer.m in Sources */,
 				A1EF252BCA316437509C02FFA0490025 /* NoteBanner.m in Sources */,
 				F816D6C449B61B7B0183B9F4F1C8D95A /* QWToast-dummy.m in Sources */,
-				1C657D720FD89F6929A67F530947A9E3 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
