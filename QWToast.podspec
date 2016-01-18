@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "QWToast"
-  s.version          = "0.1.0"
+  s.version          = "0.1.2"
   s.summary          = "淘在路上社区toast 控件（上海雀沃）"
 
   s.description      = <<-DESC
