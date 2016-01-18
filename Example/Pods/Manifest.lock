@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  QWToast: 5493b0f8587cbf2eba97b22a39bf11e996fabc88
+  QWToast: fac1d3ef45607b2d64402c631e91ecde5dc31cdd
 
 COCOAPODS: 0.39.0

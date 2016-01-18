@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EBED56310CE9F3A6AA8FF317'
+               BlueprintIdentifier = 'E94A954F38E2AE7DD4E1B54A'
                BlueprintName = 'QWToast'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libQWToast.a'>

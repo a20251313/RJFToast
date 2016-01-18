@@ -7,22 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0441A2DF020B642AC58F473B4CFB59CA /* toast_talk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 532819FE319FE0964B853C899CC1C0F8 /* toast_talk@2x.png */; };
+		0D0EA41BA70CEECD5F80418DA6E1E3CF /* toast_refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9591AA327A1D6077DB434F2A0DF6E2B5 /* toast_refresh@3x.png */; };
+		13572BAF8A04DA6F6A9CD482988EC29F /* toast_success.png in Resources */ = {isa = PBXBuildFile; fileRef = C002DFB7A6EE09D253199FAC0579917B /* toast_success.png */; };
 		16BF5B41E3D93406C51585AB7A7BB5B0 /* Pods-QWToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 256C009C2C526D82FA62F9697228518B /* Pods-QWToast_Tests-dummy.m */; };
-		334AC8931E2517EC35E6DAF5C4FD341A /* QWToast.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B42941C452E531525FB926880ADD68 /* QWToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45A06636AADA055B524CAD8F37A3306C /* NoteBanner+QWDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 359643C485194D61A90E186D125A29FD /* NoteBanner+QWDrawer.m */; };
-		71E1746E738DA7B65AC0A88A8E188F09 /* BannerMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4B4CB2DFF0550E4F2977EA7BC243C /* BannerMananger.m */; };
+		28EBC6ADD4A2FFCD667EFF7F72F4AB10 /* icon_arrow_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86EBC06BE4847B21257ADD71D2A41F58 /* icon_arrow_white@2x.png */; };
+		2E83AC50ED22441F980AA62B2E7D743C /* toast_refresh_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE72E310ACDCEC49FBFD973BE7693A0 /* toast_refresh_blue.png */; };
+		334AC8931E2517EC35E6DAF5C4FD341A /* QWToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C30E1BB79D43D0641386CA23EF8C042 /* QWToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A06636AADA055B524CAD8F37A3306C /* NoteBanner+QWDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2263C67A72EE6B1656FCA0E447ED17 /* NoteBanner+QWDrawer.m */; };
+		49A82FE811E897FBB4B70F830A6E9A36 /* toast_talk.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C95F5F5E30939528501A61E0AEEC3EE /* toast_talk.png */; };
+		4A76521DA39AD6080E055EA7EF9587A5 /* toast_save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C95FCD9978E94C4860FE46EB2CB75B /* toast_save@2x.png */; };
+		54579C506AB0049C5656B423482F2BA4 /* toast_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F152C75E0309A8FBE9961E1FFC7892 /* toast_refresh@2x.png */; };
+		562654561FD41694BC65B6788585A455 /* toast_fail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EC9F15347869B0FE47E486B54E8FC5 /* toast_fail@2x.png */; };
+		57E3964A095B68A8B002DC9C04F67B19 /* toast_fail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB8CCC686C3B40BFE05FEC90178238A /* toast_fail.png */; };
+		6699CAA6E92FD293F119BB0D527A55D5 /* toast_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4FBF730493D7080E6A83693C315C95 /* toast_save.png */; };
+		682D0774835600E6C840EB3279B21A9B /* toast_fail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1D8CB217591F5190916697084BE06 /* toast_fail@3x.png */; };
+		6E5E343D23D2FBBD67DC8192E28BC756 /* toast_settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D015DFB38BC3FC6AAD9281BC882CE402 /* toast_settings@2x.png */; };
+		71E1746E738DA7B65AC0A88A8E188F09 /* BannerMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFE59BF75E2A7EE81C0DA5576FCEA2 /* BannerMananger.m */; };
+		789F17B9316619B5DEB3AC27085A80F4 /* toast_settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73DD6A321A145912F08CD8FBEE3CF687 /* toast_settings@3x.png */; };
+		793FA0DFA52C652477B04FD1BB153ECC /* toast_refresh_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C19466882CC772D7ACFF8518CED6F00 /* toast_refresh_blue@2x.png */; };
 		7A2633021B62F1023A9A8C244FAB317D /* Pods-QWToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 905981490A39471B9D71ABE48E54EF0E /* Pods-QWToast_Example-dummy.m */; };
 		7E26869224C608BC8B20A1E72628A88F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		85A4E4999B81E010D0818FF7CEAA8A10 /* NoteBanner+QWDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E08C707D39D324B8BF8870F12354398 /* NoteBanner+QWDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8CA8685C00BFD700505A875F8E79C3CD /* QWToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B09EFE34E8F894F2A0676B1B1B12007F /* QWToast-dummy.m */; };
+		8396DC8CD510DA0C6858DE2CA6FADC7D /* toast_fail_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D695804E1B52BBE58F4DC64B57783C9C /* toast_fail_blue@3x.png */; };
+		83E7E566E36969E67011150305A80862 /* toast_fail_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A07B7DD7E935AA6F9A787CF456C31A /* toast_fail_blue@2x.png */; };
+		85A4E4999B81E010D0818FF7CEAA8A10 /* NoteBanner+QWDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF78F60323A45CE4131EFB9B3F3FCAA /* NoteBanner+QWDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88E6CC6642C435781C8ACC799E9CF69F /* toast_fail_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DD6652DD9D4C59BF03A30D15BDCF82 /* toast_fail_blue.png */; };
+		8CA8685C00BFD700505A875F8E79C3CD /* QWToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E78EC0E8A9B3233D5949BD15D062B370 /* QWToast-dummy.m */; };
+		97893CD1D19D5D0B1DAC602CC83DA9D0 /* toast_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 744430151D4F47219AA5C1B11A25A87D /* toast_refresh.png */; };
 		97D1F4ADFE912143E8E25811F078E942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		B1440B624EC8BA8FDB07BA9B3F5E8B61 /* BannerMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D8659F319AF136FB663680B456122F /* BannerMananger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B950B1B9BFA52C702C4338072E757D21 /* ACNavBarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6FC79CBC6B8985BEA9EB333241469E /* ACNavBarDrawer.m */; };
-		C0D3697D986F8A51378D37434E6E896B /* NoteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 32692C1096C1D4404B26A53E5CFFA941 /* NoteBanner.m */; };
-		C5A2E3490050B78A32B924067FD0B02A /* NoteBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB4AEC09559EA609A6BDCA1CA0B45F4 /* NoteBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1440B624EC8BA8FDB07BA9B3F5E8B61 /* BannerMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = 9757A9075585BEC49585F64F33321A62 /* BannerMananger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B950B1B9BFA52C702C4338072E757D21 /* ACNavBarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C36F200EAAEFD1436BB521B32D6C29 /* ACNavBarDrawer.m */; };
+		C0D3697D986F8A51378D37434E6E896B /* NoteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 59484CEBF2ADC5AAC9B24BB493558E88 /* NoteBanner.m */; };
+		C5A2E3490050B78A32B924067FD0B02A /* NoteBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F15A1AF616D9594E9026069147366DF /* NoteBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEF7364AFB10180D8DF7B987AA807403 /* toast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23849130933A9F732CC1D1617FF8CB64 /* toast_success@3x.png */; };
 		D3D1A7D47B0DFDD3096B36D9C8C3E7FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		DCD711C47CBB2A408F58AAA15E977308 /* icon_arrow_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C9C6E38F37AD6F8EC6AE9BDECD588 /* icon_arrow_white@3x.png */; };
+		DF4BA5CCC140EA36DE16450E894D31A6 /* toast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAAC5FC2DAF4C10D8C42658FB73207C /* toast_success@2x.png */; };
+		E15D5E3A3D0814CA1F23D03876390F9F /* toast_save@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC5453865C0FA55AFDA6554E03534EE /* toast_save@3x.png */; };
 		E3AB881D0D7EEC6F375CCAC842E59642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		E9A0A364E9DBCC6921755A164D367A0C /* ACNavBarDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ECFC4274BDAD419A30FF02B27ADD60 /* ACNavBarDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5AF4CB93B0B5626D7C365648A61395D /* icon_arrow_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 62200EAF1D1B9B6256D5F18123728622 /* icon_arrow_white.png */; };
+		E9A0A364E9DBCC6921755A164D367A0C /* ACNavBarDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A1A9241E085AC78D137731B2659AAD /* ACNavBarDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9ECF37D67FAAA12208579F4AB62DBB0 /* toast_refresh_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFF338C4DA18995117156CB569AE6E0 /* toast_refresh_blue@3x.png */; };
+		F75D1066419AB6F00527882B2B519F6E /* toast_talk@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E60A7DCF56CA9220483DC67F3917709 /* toast_talk@3x.png */; };
+		F9423C0599871480132A4287CDDD4B3E /* toast_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 62FBAA49E75028D4F944B90723E88743 /* toast_settings.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,65 +78,65 @@
 
 /* Begin PBXFileReference section */
 		03C972C0C0F59F02B12F2389BD22F1FD /* Pods-QWToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-resources.sh"; sourceTree = "<group>"; };
-		1BE65D849647E5EE055FEDA2F5FFE71B /* QWToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWToast-prefix.pch"; sourceTree = "<group>"; };
+		0C30E1BB79D43D0641386CA23EF8C042 /* QWToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QWToast.h; sourceTree = "<group>"; };
+		1C19466882CC772D7ACFF8518CED6F00 /* toast_refresh_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_refresh_blue@2x.png"; sourceTree = "<group>"; };
+		1CF1D8CB217591F5190916697084BE06 /* toast_fail@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_fail@3x.png"; sourceTree = "<group>"; };
+		1CF78F60323A45CE4131EFB9B3F3FCAA /* NoteBanner+QWDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoteBanner+QWDrawer.h"; sourceTree = "<group>"; };
 		1F1501C06171C2B11DFF131BF1276EF0 /* Pods-QWToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		23849130933A9F732CC1D1617FF8CB64 /* toast_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_success@3x.png"; sourceTree = "<group>"; };
 		256C009C2C526D82FA62F9697228518B /* Pods-QWToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Tests-dummy.m"; sourceTree = "<group>"; };
-		292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWToast.xcconfig; sourceTree = "<group>"; };
-		32692C1096C1D4404B26A53E5CFFA941 /* NoteBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteBanner.m; sourceTree = "<group>"; };
-		359643C485194D61A90E186D125A29FD /* NoteBanner+QWDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NoteBanner+QWDrawer.m"; sourceTree = "<group>"; };
+		3DAFE59BF75E2A7EE81C0DA5576FCEA2 /* BannerMananger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BannerMananger.m; sourceTree = "<group>"; };
+		3E4FBF730493D7080E6A83693C315C95 /* toast_save.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_save.png; sourceTree = "<group>"; };
+		42DD6652DD9D4C59BF03A30D15BDCF82 /* toast_fail_blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_fail_blue.png; sourceTree = "<group>"; };
 		4647EFE9B4D558333D01EF14689E4F2A /* Pods-QWToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4CB4AEC09559EA609A6BDCA1CA0B45F4 /* NoteBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteBanner.h; sourceTree = "<group>"; };
-		59ECFC4274BDAD419A30FF02B27ADD60 /* ACNavBarDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ACNavBarDrawer.h; sourceTree = "<group>"; };
+		4E60A7DCF56CA9220483DC67F3917709 /* toast_talk@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_talk@3x.png"; sourceTree = "<group>"; };
+		532819FE319FE0964B853C899CC1C0F8 /* toast_talk@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_talk@2x.png"; sourceTree = "<group>"; };
+		59484CEBF2ADC5AAC9B24BB493558E88 /* NoteBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteBanner.m; sourceTree = "<group>"; };
 		5A4F9BA7534F0E8754C8DE2751609DB7 /* Pods-QWToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5E0D87597E18348FAEA9C4CAF90BCAF0 /* Pods-QWToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62200EAF1D1B9B6256D5F18123728622 /* icon_arrow_white.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_arrow_white.png; sourceTree = "<group>"; };
 		62751B1A63CABB77569B6997850F9618 /* Pods-QWToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62FBAA49E75028D4F944B90723E88743 /* toast_settings.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_settings.png; sourceTree = "<group>"; };
 		641194E06693197876757BCD7EBDF3D0 /* Pods-QWToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6FE72E310ACDCEC49FBFD973BE7693A0 /* toast_refresh_blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_refresh_blue.png; sourceTree = "<group>"; };
+		73DD6A321A145912F08CD8FBEE3CF687 /* toast_settings@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_settings@3x.png"; sourceTree = "<group>"; };
+		744430151D4F47219AA5C1B11A25A87D /* toast_refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_refresh.png; sourceTree = "<group>"; };
+		74C95FCD9978E94C4860FE46EB2CB75B /* toast_save@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_save@2x.png"; sourceTree = "<group>"; };
 		774DCEFEAB68C9B77824DA6AC7637C31 /* libPods-QWToast_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QWToast_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8645C3BB1C4CB6B40034D9C3 /* icon_arrow_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_white.png; sourceTree = "<group>"; };
-		8645C3BC1C4CB6B40034D9C3 /* icon_arrow_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_white@2x.png"; sourceTree = "<group>"; };
-		8645C3BD1C4CB6B40034D9C3 /* icon_arrow_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_white@3x.png"; sourceTree = "<group>"; };
-		8645C3BE1C4CB6B40034D9C3 /* toast_fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_fail.png; sourceTree = "<group>"; };
-		8645C3BF1C4CB6B40034D9C3 /* toast_fail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_fail@2x.png"; sourceTree = "<group>"; };
-		8645C3C01C4CB6B40034D9C3 /* toast_fail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_fail@3x.png"; sourceTree = "<group>"; };
-		8645C3C11C4CB6B40034D9C3 /* toast_fail_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_fail_blue.png; sourceTree = "<group>"; };
-		8645C3C21C4CB6B40034D9C3 /* toast_fail_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_fail_blue@2x.png"; sourceTree = "<group>"; };
-		8645C3C31C4CB6B40034D9C3 /* toast_fail_blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_fail_blue@3x.png"; sourceTree = "<group>"; };
-		8645C3C41C4CB6B40034D9C3 /* toast_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_refresh.png; sourceTree = "<group>"; };
-		8645C3C51C4CB6B40034D9C3 /* toast_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_refresh@2x.png"; sourceTree = "<group>"; };
-		8645C3C61C4CB6B40034D9C3 /* toast_refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_refresh@3x.png"; sourceTree = "<group>"; };
-		8645C3C71C4CB6B40034D9C3 /* toast_refresh_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_refresh_blue.png; sourceTree = "<group>"; };
-		8645C3C81C4CB6B40034D9C3 /* toast_refresh_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_refresh_blue@2x.png"; sourceTree = "<group>"; };
-		8645C3C91C4CB6B40034D9C3 /* toast_refresh_blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_refresh_blue@3x.png"; sourceTree = "<group>"; };
-		8645C3CA1C4CB6B40034D9C3 /* toast_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_save.png; sourceTree = "<group>"; };
-		8645C3CB1C4CB6B40034D9C3 /* toast_save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_save@2x.png"; sourceTree = "<group>"; };
-		8645C3CC1C4CB6B40034D9C3 /* toast_save@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_save@3x.png"; sourceTree = "<group>"; };
-		8645C3CD1C4CB6B40034D9C3 /* toast_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_settings.png; sourceTree = "<group>"; };
-		8645C3CE1C4CB6B40034D9C3 /* toast_settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_settings@2x.png"; sourceTree = "<group>"; };
-		8645C3CF1C4CB6B40034D9C3 /* toast_settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_settings@3x.png"; sourceTree = "<group>"; };
-		8645C3D01C4CB6B40034D9C3 /* toast_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_success.png; sourceTree = "<group>"; };
-		8645C3D11C4CB6B40034D9C3 /* toast_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_success@2x.png"; sourceTree = "<group>"; };
-		8645C3D21C4CB6B40034D9C3 /* toast_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_success@3x.png"; sourceTree = "<group>"; };
-		8645C3D31C4CB6B40034D9C3 /* toast_talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_talk.png; sourceTree = "<group>"; };
-		8645C3D41C4CB6B40034D9C3 /* toast_talk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_talk@2x.png"; sourceTree = "<group>"; };
-		8645C3D51C4CB6B40034D9C3 /* toast_talk@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_talk@3x.png"; sourceTree = "<group>"; };
-		8A6FC79CBC6B8985BEA9EB333241469E /* ACNavBarDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ACNavBarDrawer.m; sourceTree = "<group>"; };
+		7CFF338C4DA18995117156CB569AE6E0 /* toast_refresh_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_refresh_blue@3x.png"; sourceTree = "<group>"; };
+		7DB8CCC686C3B40BFE05FEC90178238A /* toast_fail.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_fail.png; sourceTree = "<group>"; };
+		86EBC06BE4847B21257ADD71D2A41F58 /* icon_arrow_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_arrow_white@2x.png"; sourceTree = "<group>"; };
+		8D2C9C6E38F37AD6F8EC6AE9BDECD588 /* icon_arrow_white@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_arrow_white@3x.png"; sourceTree = "<group>"; };
 		8D6F0DBB98B05F868DDE5CE758936599 /* Pods-QWToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8E08C707D39D324B8BF8870F12354398 /* NoteBanner+QWDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoteBanner+QWDrawer.h"; sourceTree = "<group>"; };
 		905981490A39471B9D71ABE48E54EF0E /* Pods-QWToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Example-dummy.m"; sourceTree = "<group>"; };
-		A2D4B4CB2DFF0550E4F2977EA7BC243C /* BannerMananger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BannerMananger.m; sourceTree = "<group>"; };
+		9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWToast.xcconfig; sourceTree = "<group>"; };
+		9591AA327A1D6077DB434F2A0DF6E2B5 /* toast_refresh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_refresh@3x.png"; sourceTree = "<group>"; };
+		95C36F200EAAEFD1436BB521B32D6C29 /* ACNavBarDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ACNavBarDrawer.m; sourceTree = "<group>"; };
+		9757A9075585BEC49585F64F33321A62 /* BannerMananger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BannerMananger.h; sourceTree = "<group>"; };
+		9C95F5F5E30939528501A61E0AEEC3EE /* toast_talk.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_talk.png; sourceTree = "<group>"; };
+		9F15A1AF616D9594E9026069147366DF /* NoteBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteBanner.h; sourceTree = "<group>"; };
 		A31DFE50C849A8DE17130F2EA94C50F0 /* Pods-QWToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B09EFE34E8F894F2A0676B1B1B12007F /* QWToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QWToast-dummy.m"; sourceTree = "<group>"; };
 		B0ED9144620B43001C97DA0ED33AEE1B /* Pods-QWToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B6A1A9241E085AC78D137731B2659AAD /* ACNavBarDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ACNavBarDrawer.h; sourceTree = "<group>"; };
 		B7748C3201C313666FBC5EC445861E0B /* Pods-QWToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB12B0F9612C008954F571CE0E632D34 /* QWToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWToast-prefix.pch"; sourceTree = "<group>"; };
+		BCAAC5FC2DAF4C10D8C42658FB73207C /* toast_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_success@2x.png"; sourceTree = "<group>"; };
+		C002DFB7A6EE09D253199FAC0579917B /* toast_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_success.png; sourceTree = "<group>"; };
+		C0F152C75E0309A8FBE9961E1FFC7892 /* toast_refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_refresh@2x.png"; sourceTree = "<group>"; };
 		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D5D8659F319AF136FB663680B456122F /* BannerMananger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BannerMananger.h; sourceTree = "<group>"; };
+		D015DFB38BC3FC6AAD9281BC882CE402 /* toast_settings@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_settings@2x.png"; sourceTree = "<group>"; };
+		D695804E1B52BBE58F4DC64B57783C9C /* toast_fail_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_fail_blue@3x.png"; sourceTree = "<group>"; };
+		D7A07B7DD7E935AA6F9A787CF456C31A /* toast_fail_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_fail_blue@2x.png"; sourceTree = "<group>"; };
 		E3E84FB539C149A65471D49F5CE4433E /* QWToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5B42941C452E531525FB926880ADD68 /* QWToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QWToast.h; sourceTree = "<group>"; };
+		E78EC0E8A9B3233D5949BD15D062B370 /* QWToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QWToast-dummy.m"; sourceTree = "<group>"; };
+		EAC5453865C0FA55AFDA6554E03534EE /* toast_save@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_save@3x.png"; sourceTree = "<group>"; };
 		F5C1843F737F1EC8B7412D0352C8895E /* libQWToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQWToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5D9755ACE9E918610B88DC873816784 /* libPods-QWToast_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QWToast_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8EC9F15347869B0FE47E486B54E8FC5 /* toast_fail@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_fail@2x.png"; sourceTree = "<group>"; };
 		FB35A0FF9F71EEDB1E5DD8BB3A16060F /* Pods-QWToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FC2263C67A72EE6B1656FCA0E447ED17 /* NoteBanner+QWDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NoteBanner+QWDrawer.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,20 +175,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0456913EE7706E22F8BF41AC2AF27818 /* Classes */ = {
+		0D9E47A48523CE8C07D785E15C775C3E /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				59ECFC4274BDAD419A30FF02B27ADD60 /* ACNavBarDrawer.h */,
-				8A6FC79CBC6B8985BEA9EB333241469E /* ACNavBarDrawer.m */,
-				D5D8659F319AF136FB663680B456122F /* BannerMananger.h */,
-				A2D4B4CB2DFF0550E4F2977EA7BC243C /* BannerMananger.m */,
-				4CB4AEC09559EA609A6BDCA1CA0B45F4 /* NoteBanner.h */,
-				32692C1096C1D4404B26A53E5CFFA941 /* NoteBanner.m */,
-				8E08C707D39D324B8BF8870F12354398 /* NoteBanner+QWDrawer.h */,
-				359643C485194D61A90E186D125A29FD /* NoteBanner+QWDrawer.m */,
-				E5B42941C452E531525FB926880ADD68 /* QWToast.h */,
+				AA8D5FEC347FA231E44EF0A56A1F76F9 /* Classes */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
@@ -173,6 +192,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		1E375090EB50D8254811D3AE541499CF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */,
+				E78EC0E8A9B3233D5949BD15D062B370 /* QWToast-dummy.m */,
+				BB12B0F9612C008954F571CE0E632D34 /* QWToast-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QWToast";
+			sourceTree = "<group>";
+		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,15 +211,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		553CCE756F9CF86F814DCC2ABC220DEE /* Support Files */ = {
+		47B1894E4C8E7D751647B6565CF4C318 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */,
-				B09EFE34E8F894F2A0676B1B1B12007F /* QWToast-dummy.m */,
-				1BE65D849647E5EE055FEDA2F5FFE71B /* QWToast-prefix.pch */,
+				6A78FEA2AA536A6C862E2B652C759F94 /* Pod */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QWToast";
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6A78FEA2AA536A6C862E2B652C759F94 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A3E5D4CD5DBA1594839882D307008266 /* Assets */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		6F091E2276CA759F85F8F330F790B1AC /* Pods-QWToast_Example */ = {
@@ -207,50 +242,23 @@
 			path = "Target Support Files/Pods-QWToast_Example";
 			sourceTree = "<group>";
 		};
+		7AABA936D815AF2C9836EA68BFD0E4F6 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB470ED9A6A1688EEBB72A1FC75365C2 /* QWToast */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				D1F9F9C98B546B98E840CB7FA49B561E /* Development Pods */,
+				7AABA936D815AF2C9836EA68BFD0E4F6 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				9E80FC8EA9A8E3C1689D1E745B5DCA0A /* Products */,
 				AEF1D3C7770FEB8E8DDC29BF4E7AB9EF /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		8645C3BA1C4CB6B40034D9C3 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				8645C3BB1C4CB6B40034D9C3 /* icon_arrow_white.png */,
-				8645C3BC1C4CB6B40034D9C3 /* icon_arrow_white@2x.png */,
-				8645C3BD1C4CB6B40034D9C3 /* icon_arrow_white@3x.png */,
-				8645C3BE1C4CB6B40034D9C3 /* toast_fail.png */,
-				8645C3BF1C4CB6B40034D9C3 /* toast_fail@2x.png */,
-				8645C3C01C4CB6B40034D9C3 /* toast_fail@3x.png */,
-				8645C3C11C4CB6B40034D9C3 /* toast_fail_blue.png */,
-				8645C3C21C4CB6B40034D9C3 /* toast_fail_blue@2x.png */,
-				8645C3C31C4CB6B40034D9C3 /* toast_fail_blue@3x.png */,
-				8645C3C41C4CB6B40034D9C3 /* toast_refresh.png */,
-				8645C3C51C4CB6B40034D9C3 /* toast_refresh@2x.png */,
-				8645C3C61C4CB6B40034D9C3 /* toast_refresh@3x.png */,
-				8645C3C71C4CB6B40034D9C3 /* toast_refresh_blue.png */,
-				8645C3C81C4CB6B40034D9C3 /* toast_refresh_blue@2x.png */,
-				8645C3C91C4CB6B40034D9C3 /* toast_refresh_blue@3x.png */,
-				8645C3CA1C4CB6B40034D9C3 /* toast_save.png */,
-				8645C3CB1C4CB6B40034D9C3 /* toast_save@2x.png */,
-				8645C3CC1C4CB6B40034D9C3 /* toast_save@3x.png */,
-				8645C3CD1C4CB6B40034D9C3 /* toast_settings.png */,
-				8645C3CE1C4CB6B40034D9C3 /* toast_settings@2x.png */,
-				8645C3CF1C4CB6B40034D9C3 /* toast_settings@3x.png */,
-				8645C3D01C4CB6B40034D9C3 /* toast_success.png */,
-				8645C3D11C4CB6B40034D9C3 /* toast_success@2x.png */,
-				8645C3D21C4CB6B40034D9C3 /* toast_success@3x.png */,
-				8645C3D31C4CB6B40034D9C3 /* toast_talk.png */,
-				8645C3D41C4CB6B40034D9C3 /* toast_talk@2x.png */,
-				8645C3D51C4CB6B40034D9C3 /* toast_talk@3x.png */,
-			);
-			name = Assets;
-			path = Pod/Assets;
 			sourceTree = "<group>";
 		};
 		90199235EB0A835DE219B2F36138390A /* Pods-QWToast_Tests */ = {
@@ -279,12 +287,54 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AC4EE66BE54DAD7D7E11FAA582F24161 /* Pod */ = {
+		A3E5D4CD5DBA1594839882D307008266 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				0456913EE7706E22F8BF41AC2AF27818 /* Classes */,
+				62200EAF1D1B9B6256D5F18123728622 /* icon_arrow_white.png */,
+				86EBC06BE4847B21257ADD71D2A41F58 /* icon_arrow_white@2x.png */,
+				8D2C9C6E38F37AD6F8EC6AE9BDECD588 /* icon_arrow_white@3x.png */,
+				7DB8CCC686C3B40BFE05FEC90178238A /* toast_fail.png */,
+				F8EC9F15347869B0FE47E486B54E8FC5 /* toast_fail@2x.png */,
+				1CF1D8CB217591F5190916697084BE06 /* toast_fail@3x.png */,
+				42DD6652DD9D4C59BF03A30D15BDCF82 /* toast_fail_blue.png */,
+				D7A07B7DD7E935AA6F9A787CF456C31A /* toast_fail_blue@2x.png */,
+				D695804E1B52BBE58F4DC64B57783C9C /* toast_fail_blue@3x.png */,
+				744430151D4F47219AA5C1B11A25A87D /* toast_refresh.png */,
+				C0F152C75E0309A8FBE9961E1FFC7892 /* toast_refresh@2x.png */,
+				9591AA327A1D6077DB434F2A0DF6E2B5 /* toast_refresh@3x.png */,
+				6FE72E310ACDCEC49FBFD973BE7693A0 /* toast_refresh_blue.png */,
+				1C19466882CC772D7ACFF8518CED6F00 /* toast_refresh_blue@2x.png */,
+				7CFF338C4DA18995117156CB569AE6E0 /* toast_refresh_blue@3x.png */,
+				3E4FBF730493D7080E6A83693C315C95 /* toast_save.png */,
+				74C95FCD9978E94C4860FE46EB2CB75B /* toast_save@2x.png */,
+				EAC5453865C0FA55AFDA6554E03534EE /* toast_save@3x.png */,
+				62FBAA49E75028D4F944B90723E88743 /* toast_settings.png */,
+				D015DFB38BC3FC6AAD9281BC882CE402 /* toast_settings@2x.png */,
+				73DD6A321A145912F08CD8FBEE3CF687 /* toast_settings@3x.png */,
+				C002DFB7A6EE09D253199FAC0579917B /* toast_success.png */,
+				BCAAC5FC2DAF4C10D8C42658FB73207C /* toast_success@2x.png */,
+				23849130933A9F732CC1D1617FF8CB64 /* toast_success@3x.png */,
+				9C95F5F5E30939528501A61E0AEEC3EE /* toast_talk.png */,
+				532819FE319FE0964B853C899CC1C0F8 /* toast_talk@2x.png */,
+				4E60A7DCF56CA9220483DC67F3917709 /* toast_talk@3x.png */,
 			);
-			path = Pod;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AA8D5FEC347FA231E44EF0A56A1F76F9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B6A1A9241E085AC78D137731B2659AAD /* ACNavBarDrawer.h */,
+				95C36F200EAAEFD1436BB521B32D6C29 /* ACNavBarDrawer.m */,
+				9757A9075585BEC49585F64F33321A62 /* BannerMananger.h */,
+				3DAFE59BF75E2A7EE81C0DA5576FCEA2 /* BannerMananger.m */,
+				9F15A1AF616D9594E9026069147366DF /* NoteBanner.h */,
+				59484CEBF2ADC5AAC9B24BB493558E88 /* NoteBanner.m */,
+				1CF78F60323A45CE4131EFB9B3F3FCAA /* NoteBanner+QWDrawer.h */,
+				FC2263C67A72EE6B1656FCA0E447ED17 /* NoteBanner+QWDrawer.m */,
+				0C30E1BB79D43D0641386CA23EF8C042 /* QWToast.h */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		AEF1D3C7770FEB8E8DDC29BF4E7AB9EF /* Targets Support Files */ = {
@@ -296,20 +346,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D1F9F9C98B546B98E840CB7FA49B561E /* Development Pods */ = {
+		CB470ED9A6A1688EEBB72A1FC75365C2 /* QWToast */ = {
 			isa = PBXGroup;
 			children = (
-				E37BE6CCB27111A283C3FC6A7DEDEF5D /* QWToast */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		E37BE6CCB27111A283C3FC6A7DEDEF5D /* QWToast */ = {
-			isa = PBXGroup;
-			children = (
-				8645C3BA1C4CB6B40034D9C3 /* Assets */,
-				AC4EE66BE54DAD7D7E11FAA582F24161 /* Pod */,
-				553CCE756F9CF86F814DCC2ABC220DEE /* Support Files */,
+				0D9E47A48523CE8C07D785E15C775C3E /* Pod */,
+				47B1894E4C8E7D751647B6565CF4C318 /* Resources */,
+				1E375090EB50D8254811D3AE541499CF /* Support Files */,
 			);
 			name = QWToast;
 			path = ../..;
@@ -339,7 +381,7 @@
 			buildPhases = (
 				B3588CC9039C8803C091BC9AA9F69500 /* Sources */,
 				A813F46CD42C1E709956431DB0C30215 /* Frameworks */,
-				D7E3B26805C0BD7B8E730A0DCFF6A74F /* Resources */,
+				CBBEEA480DDAB569CDA18E04258D3E35 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -432,10 +474,37 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D7E3B26805C0BD7B8E730A0DCFF6A74F /* Resources */ = {
+		CBBEEA480DDAB569CDA18E04258D3E35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5AF4CB93B0B5626D7C365648A61395D /* icon_arrow_white.png in Resources */,
+				28EBC6ADD4A2FFCD667EFF7F72F4AB10 /* icon_arrow_white@2x.png in Resources */,
+				DCD711C47CBB2A408F58AAA15E977308 /* icon_arrow_white@3x.png in Resources */,
+				57E3964A095B68A8B002DC9C04F67B19 /* toast_fail.png in Resources */,
+				562654561FD41694BC65B6788585A455 /* toast_fail@2x.png in Resources */,
+				682D0774835600E6C840EB3279B21A9B /* toast_fail@3x.png in Resources */,
+				88E6CC6642C435781C8ACC799E9CF69F /* toast_fail_blue.png in Resources */,
+				83E7E566E36969E67011150305A80862 /* toast_fail_blue@2x.png in Resources */,
+				8396DC8CD510DA0C6858DE2CA6FADC7D /* toast_fail_blue@3x.png in Resources */,
+				97893CD1D19D5D0B1DAC602CC83DA9D0 /* toast_refresh.png in Resources */,
+				54579C506AB0049C5656B423482F2BA4 /* toast_refresh@2x.png in Resources */,
+				0D0EA41BA70CEECD5F80418DA6E1E3CF /* toast_refresh@3x.png in Resources */,
+				2E83AC50ED22441F980AA62B2E7D743C /* toast_refresh_blue.png in Resources */,
+				793FA0DFA52C652477B04FD1BB153ECC /* toast_refresh_blue@2x.png in Resources */,
+				E9ECF37D67FAAA12208579F4AB62DBB0 /* toast_refresh_blue@3x.png in Resources */,
+				6699CAA6E92FD293F119BB0D527A55D5 /* toast_save.png in Resources */,
+				4A76521DA39AD6080E055EA7EF9587A5 /* toast_save@2x.png in Resources */,
+				E15D5E3A3D0814CA1F23D03876390F9F /* toast_save@3x.png in Resources */,
+				F9423C0599871480132A4287CDDD4B3E /* toast_settings.png in Resources */,
+				6E5E343D23D2FBBD67DC8192E28BC756 /* toast_settings@2x.png in Resources */,
+				789F17B9316619B5DEB3AC27085A80F4 /* toast_settings@3x.png in Resources */,
+				13572BAF8A04DA6F6A9CD482988EC29F /* toast_success.png in Resources */,
+				DF4BA5CCC140EA36DE16450E894D31A6 /* toast_success@2x.png in Resources */,
+				CEF7364AFB10180D8DF7B987AA807403 /* toast_success@3x.png in Resources */,
+				49A82FE811E897FBB4B70F830A6E9A36 /* toast_talk.png in Resources */,
+				0441A2DF020B642AC58F473B4CFB59CA /* toast_talk@2x.png in Resources */,
+				F75D1066419AB6F00527882B2B519F6E /* toast_talk@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -644,7 +713,7 @@
 		};
 		6FF899D01BE28E3C789D8C53D1BAAEC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */;
+			baseConfigurationReference = 9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/QWToast/QWToast-prefix.pch";
@@ -662,7 +731,7 @@
 		};
 		ABCB541CD3AB2056B8BB2CEFBC932EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */;
+			baseConfigurationReference = 9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = QWToast;
@@ -674,7 +743,7 @@
 		};
 		BE33497FFBBC13C9470CF3F1D3C16830 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */;
+			baseConfigurationReference = 9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/QWToast/QWToast-prefix.pch";
@@ -692,7 +761,7 @@
 		};
 		DD72BC77499160CE85E12A8C3CC10840 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */;
+			baseConfigurationReference = 9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = QWToast;
