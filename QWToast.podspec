@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Pod/Classes/**/*'
   s.resource_bundles = {
-    'QWToast' => ['Pod/Assets/*.xcassets']
+    'QWToast' => ['Pod/Assets/*.png']
   }
 
   s.public_header_files = 'Pod/Classes/**/*.h'

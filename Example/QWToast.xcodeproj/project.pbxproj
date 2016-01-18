@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4FBAE3AA055066F5E392F0D5 /* Pods_QWToast_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4F50741D0394B84F2B4D56 /* Pods_QWToast_Example.framework */; };
+		0B4CCC9472C9FFCBC855F86C /* libPods-QWToast_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE5FD48DAF51359E90A1999D /* libPods-QWToast_Tests.a */; };
+		11A3CC2FD67468F43DFED9CB /* libPods-QWToast_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 052DA2EB47E529EED51E5157 /* libPods-QWToast_Example.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,7 +23,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B26384749FE9FF8FBC55A86C /* Pods_QWToast_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB37E08D9EFC8FCA0915AB7D /* Pods_QWToast_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		052DA2EB47E529EED51E5157 /* libPods-QWToast_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QWToast_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		338FDE65C70B56F2E8AA24B8 /* Pods-QWToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWToast_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QWToast_Tests/Pods-QWToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3B6612E1A8C9A61F329433FC /* Pods-QWToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWToast_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QWToast_Example/Pods-QWToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		449B649EEA0EA686F1CD643B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -59,12 +60,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6C4F50741D0394B84F2B4D56 /* Pods_QWToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		711579A08B45D1C2B4A821BA /* Pods-QWToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWToast_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QWToast_Tests/Pods-QWToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		793A8E2046E206768327C334 /* Pods-QWToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QWToast_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-QWToast_Example/Pods-QWToast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A274891889098B30005F65CF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CB37E08D9EFC8FCA0915AB7D /* Pods_QWToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE5FD48DAF51359E90A1999D /* libPods-QWToast_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QWToast_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				4FBAE3AA055066F5E392F0D5 /* Pods_QWToast_Example.framework in Frameworks */,
+				11A3CC2FD67468F43DFED9CB /* libPods-QWToast_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B26384749FE9FF8FBC55A86C /* Pods_QWToast_Tests.framework in Frameworks */,
+				0B4CCC9472C9FFCBC855F86C /* libPods-QWToast_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,8 +132,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				6C4F50741D0394B84F2B4D56 /* Pods_QWToast_Example.framework */,
-				CB37E08D9EFC8FCA0915AB7D /* Pods_QWToast_Tests.framework */,
+				052DA2EB47E529EED51E5157 /* libPods-QWToast_Example.a */,
+				BE5FD48DAF51359E90A1999D /* libPods-QWToast_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

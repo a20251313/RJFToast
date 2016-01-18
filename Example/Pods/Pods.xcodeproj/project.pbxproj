@@ -7,151 +7,161 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E0B97079D92E904D9D309CE0A4B4661 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		0F7472718AB25CCDA0443D62565D8122 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		0F8636B95B80019144B6F49F287F0A26 /* ACNavBarDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = F97756F0267FE539DE749238913C73BC /* ACNavBarDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1EC3C97E129A62D1C26955ED1017A407 /* NoteBanner+QWDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA0BED35A643083CF07D33C634A7A7C /* NoteBanner+QWDrawer.m */; };
-		1EE4DFB5E707DAD6B6390A637A62B461 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92AFF7D13F8A8816F17501EA044E957D /* Media.xcassets */; };
-		1F19DE1B1A108F8911FCEB98EA727070 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		20EDCCF99846FE7636A95E8C4C9126A7 /* ACNavBarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 951BA20133222772B6CF773355B0D801 /* ACNavBarDrawer.m */; };
-		2571336F961ECD80D7A5315D8CF1E51E /* Pods-QWToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E7BDAB367E5E0E24F85337E48CC81 /* Pods-QWToast_Tests-dummy.m */; };
-		3890832B15C69581AD811A16CFD4786D /* Pods-QWToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 088D3B8F4160918FD9F6BACB40DD5501 /* Pods-QWToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5FF55473B51346CC2D7EC025471CB8FF /* Pods-QWToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D423F5A5D2697B450EEEC7EB303626D /* Pods-QWToast_Example-dummy.m */; };
-		8A098A93AD68A9B2167B2802870245FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		9C20753EF85EC8000BC8C4F263F730AA /* NoteBanner+QWDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FFE46AF222EA504A282A412BB72B735 /* NoteBanner+QWDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A1EF252BCA316437509C02FFA0490025 /* NoteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 33DF09CA374D27D2A84B39E0EB2F245D /* NoteBanner.m */; };
-		AF78CC56E8D07F4E0124BDEFEF4C5B08 /* BannerMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = 049E69896DCAD72987E4C8EAD716610A /* BannerMananger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B633795644A5E6572DD2A22DAD7479F9 /* QWToast.h in Headers */ = {isa = PBXBuildFile; fileRef = BE468475C4AF743B064E8600CE5B9FA8 /* QWToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C5F5AECFFD9AF11CA1D47D80CC5528DF /* BannerMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EEA82B4FB09FE48369F2CE1DC567CB /* BannerMananger.m */; };
-		CE5CA4D9FC28F2746872119430E18605 /* Pods-QWToast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 677A18D82C95559EE858A4D2BB11371F /* Pods-QWToast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D79F0C0869237E1A02637F716082C621 /* NoteBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = C36CFE28F841CBEA2BA4EADED9156A1D /* NoteBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F816D6C449B61B7B0183B9F4F1C8D95A /* QWToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2680AD29402FA3A5FED31F50F7141323 /* QWToast-dummy.m */; };
-		FA86C071DCA3337A2C3DD2D56D9BD178 /* QWToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DF62E4CAF33A320D673F9669579FF54 /* QWToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD565B7A3958E680FE7D0BF43CA738BE /* QWToast.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2AD258BB5445EA1CE88B763CA689AD8C /* QWToast.bundle */; };
+		16BF5B41E3D93406C51585AB7A7BB5B0 /* Pods-QWToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 256C009C2C526D82FA62F9697228518B /* Pods-QWToast_Tests-dummy.m */; };
+		334AC8931E2517EC35E6DAF5C4FD341A /* QWToast.h in Headers */ = {isa = PBXBuildFile; fileRef = E5B42941C452E531525FB926880ADD68 /* QWToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A06636AADA055B524CAD8F37A3306C /* NoteBanner+QWDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 359643C485194D61A90E186D125A29FD /* NoteBanner+QWDrawer.m */; };
+		71E1746E738DA7B65AC0A88A8E188F09 /* BannerMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D4B4CB2DFF0550E4F2977EA7BC243C /* BannerMananger.m */; };
+		7A2633021B62F1023A9A8C244FAB317D /* Pods-QWToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 905981490A39471B9D71ABE48E54EF0E /* Pods-QWToast_Example-dummy.m */; };
+		7E26869224C608BC8B20A1E72628A88F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		85A4E4999B81E010D0818FF7CEAA8A10 /* NoteBanner+QWDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E08C707D39D324B8BF8870F12354398 /* NoteBanner+QWDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA8685C00BFD700505A875F8E79C3CD /* QWToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B09EFE34E8F894F2A0676B1B1B12007F /* QWToast-dummy.m */; };
+		97D1F4ADFE912143E8E25811F078E942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		B1440B624EC8BA8FDB07BA9B3F5E8B61 /* BannerMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = D5D8659F319AF136FB663680B456122F /* BannerMananger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B950B1B9BFA52C702C4338072E757D21 /* ACNavBarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A6FC79CBC6B8985BEA9EB333241469E /* ACNavBarDrawer.m */; };
+		C0D3697D986F8A51378D37434E6E896B /* NoteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 32692C1096C1D4404B26A53E5CFFA941 /* NoteBanner.m */; };
+		C5A2E3490050B78A32B924067FD0B02A /* NoteBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB4AEC09559EA609A6BDCA1CA0B45F4 /* NoteBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3D1A7D47B0DFDD3096B36D9C8C3E7FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		E3AB881D0D7EEC6F375CCAC842E59642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		E9A0A364E9DBCC6921755A164D367A0C /* ACNavBarDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 59ECFC4274BDAD419A30FF02B27ADD60 /* ACNavBarDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8E1B6036DD112592F15514B9A7B3D76E /* PBXContainerItemProxy */ = {
+		17E5D9877CEB1DE5028ACA34FAD98EBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6F15079671709DAE28C05DD8F6899423;
+			remoteGlobalIDString = 2C6A466AD937672E4B9F538D43DCF830;
 			remoteInfo = QWToast;
 		};
-		BB189906AE76FE612AB026EFCBE10025 /* PBXContainerItemProxy */ = {
+		56580F8ADF02C7E1F30F8C0FA6EF788F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A339AB94DFB4FD0E2D594F577B4CE366;
+			remoteGlobalIDString = 2C6A466AD937672E4B9F538D43DCF830;
+			remoteInfo = QWToast;
+		};
+		FB005B1BA14C14338E246FEC1076F24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12061990F0AA0904A94F881CF331909C;
 			remoteInfo = "QWToast-QWToast";
-		};
-		D4EDC81EC42614D1369FC3477CF01BDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F15079671709DAE28C05DD8F6899423;
-			remoteInfo = QWToast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049E69896DCAD72987E4C8EAD716610A /* BannerMananger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BannerMananger.h; sourceTree = "<group>"; };
-		07E0298D08EAC35D6CC503A185889C2D /* Pods-QWToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		088D3B8F4160918FD9F6BACB40DD5501 /* Pods-QWToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWToast_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1370E6301DE63B78D216A73B700438A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13A125C214D6E0E0F7B770A59B01A981 /* QWToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QWToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		13EADE2745F0222DCB1DB3E31F8E77C6 /* Pods_QWToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2680AD29402FA3A5FED31F50F7141323 /* QWToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QWToast-dummy.m"; sourceTree = "<group>"; };
-		29188A0D8448CA0D884590C3510D8183 /* QWToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWToast-prefix.pch"; sourceTree = "<group>"; };
-		2AD258BB5445EA1CE88B763CA689AD8C /* QWToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		33DF09CA374D27D2A84B39E0EB2F245D /* NoteBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteBanner.m; sourceTree = "<group>"; };
-		3EFCE7420ABF65F4C18442001209568E /* Pods-QWToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		3F0E7BDAB367E5E0E24F85337E48CC81 /* Pods-QWToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Tests-dummy.m"; sourceTree = "<group>"; };
-		3F913F7D04262818115228A325823EB0 /* Pods-QWToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4DF62E4CAF33A320D673F9669579FF54 /* QWToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWToast-umbrella.h"; sourceTree = "<group>"; };
-		5067EAE29380E85DCD444DA04DEB5808 /* QWToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = QWToast.modulemap; sourceTree = "<group>"; };
-		533769D3015E49CBDCDBBDC7260FCD32 /* Pods-QWToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-resources.sh"; sourceTree = "<group>"; };
-		5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWToast.xcconfig; sourceTree = "<group>"; };
-		66EEA82B4FB09FE48369F2CE1DC567CB /* BannerMananger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BannerMananger.m; sourceTree = "<group>"; };
-		677A18D82C95559EE858A4D2BB11371F /* Pods-QWToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QWToast_Example-umbrella.h"; sourceTree = "<group>"; };
-		6D423F5A5D2697B450EEEC7EB303626D /* Pods-QWToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Example-dummy.m"; sourceTree = "<group>"; };
+		03C972C0C0F59F02B12F2389BD22F1FD /* Pods-QWToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-resources.sh"; sourceTree = "<group>"; };
+		1BE65D849647E5EE055FEDA2F5FFE71B /* QWToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWToast-prefix.pch"; sourceTree = "<group>"; };
+		1F1501C06171C2B11DFF131BF1276EF0 /* Pods-QWToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		256C009C2C526D82FA62F9697228518B /* Pods-QWToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Tests-dummy.m"; sourceTree = "<group>"; };
+		292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWToast.xcconfig; sourceTree = "<group>"; };
+		32692C1096C1D4404B26A53E5CFFA941 /* NoteBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteBanner.m; sourceTree = "<group>"; };
+		359643C485194D61A90E186D125A29FD /* NoteBanner+QWDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NoteBanner+QWDrawer.m"; sourceTree = "<group>"; };
+		4647EFE9B4D558333D01EF14689E4F2A /* Pods-QWToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4CB4AEC09559EA609A6BDCA1CA0B45F4 /* NoteBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteBanner.h; sourceTree = "<group>"; };
+		59ECFC4274BDAD419A30FF02B27ADD60 /* ACNavBarDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ACNavBarDrawer.h; sourceTree = "<group>"; };
+		5A4F9BA7534F0E8754C8DE2751609DB7 /* Pods-QWToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5E0D87597E18348FAEA9C4CAF90BCAF0 /* Pods-QWToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62751B1A63CABB77569B6997850F9618 /* Pods-QWToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		641194E06693197876757BCD7EBDF3D0 /* Pods-QWToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		711B3752D52559B0247E7E0FF64379AA /* Pods_QWToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QWToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71F315D3416B4603ED4D388AA10DDC63 /* Pods-QWToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QWToast_Tests.modulemap"; sourceTree = "<group>"; };
-		7FFE46AF222EA504A282A412BB72B735 /* NoteBanner+QWDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoteBanner+QWDrawer.h"; sourceTree = "<group>"; };
-		8DCE77FE2A9B52767FDCE4530F8416E4 /* Pods-QWToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		92AFF7D13F8A8816F17501EA044E957D /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		94A053B2BF3E1B739AFD2E2145FD0293 /* Pods-QWToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.release.xcconfig"; sourceTree = "<group>"; };
-		951BA20133222772B6CF773355B0D801 /* ACNavBarDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ACNavBarDrawer.m; sourceTree = "<group>"; };
-		96B13B62041F0351C18287C6D6C8C29C /* Pods-QWToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-QWToast_Example.modulemap"; sourceTree = "<group>"; };
-		9BB0E3E4CE1F021AB051E27E7393BED9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A3F3BC710FC663EC5687393B3C8A5F00 /* Pods-QWToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-frameworks.sh"; sourceTree = "<group>"; };
+		774DCEFEAB68C9B77824DA6AC7637C31 /* libPods-QWToast_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QWToast_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8645C3BB1C4CB6B40034D9C3 /* icon_arrow_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_arrow_white.png; sourceTree = "<group>"; };
+		8645C3BC1C4CB6B40034D9C3 /* icon_arrow_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_white@2x.png"; sourceTree = "<group>"; };
+		8645C3BD1C4CB6B40034D9C3 /* icon_arrow_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_arrow_white@3x.png"; sourceTree = "<group>"; };
+		8645C3BE1C4CB6B40034D9C3 /* toast_fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_fail.png; sourceTree = "<group>"; };
+		8645C3BF1C4CB6B40034D9C3 /* toast_fail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_fail@2x.png"; sourceTree = "<group>"; };
+		8645C3C01C4CB6B40034D9C3 /* toast_fail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_fail@3x.png"; sourceTree = "<group>"; };
+		8645C3C11C4CB6B40034D9C3 /* toast_fail_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_fail_blue.png; sourceTree = "<group>"; };
+		8645C3C21C4CB6B40034D9C3 /* toast_fail_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_fail_blue@2x.png"; sourceTree = "<group>"; };
+		8645C3C31C4CB6B40034D9C3 /* toast_fail_blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_fail_blue@3x.png"; sourceTree = "<group>"; };
+		8645C3C41C4CB6B40034D9C3 /* toast_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_refresh.png; sourceTree = "<group>"; };
+		8645C3C51C4CB6B40034D9C3 /* toast_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_refresh@2x.png"; sourceTree = "<group>"; };
+		8645C3C61C4CB6B40034D9C3 /* toast_refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_refresh@3x.png"; sourceTree = "<group>"; };
+		8645C3C71C4CB6B40034D9C3 /* toast_refresh_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_refresh_blue.png; sourceTree = "<group>"; };
+		8645C3C81C4CB6B40034D9C3 /* toast_refresh_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_refresh_blue@2x.png"; sourceTree = "<group>"; };
+		8645C3C91C4CB6B40034D9C3 /* toast_refresh_blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_refresh_blue@3x.png"; sourceTree = "<group>"; };
+		8645C3CA1C4CB6B40034D9C3 /* toast_save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_save.png; sourceTree = "<group>"; };
+		8645C3CB1C4CB6B40034D9C3 /* toast_save@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_save@2x.png"; sourceTree = "<group>"; };
+		8645C3CC1C4CB6B40034D9C3 /* toast_save@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_save@3x.png"; sourceTree = "<group>"; };
+		8645C3CD1C4CB6B40034D9C3 /* toast_settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_settings.png; sourceTree = "<group>"; };
+		8645C3CE1C4CB6B40034D9C3 /* toast_settings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_settings@2x.png"; sourceTree = "<group>"; };
+		8645C3CF1C4CB6B40034D9C3 /* toast_settings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_settings@3x.png"; sourceTree = "<group>"; };
+		8645C3D01C4CB6B40034D9C3 /* toast_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_success.png; sourceTree = "<group>"; };
+		8645C3D11C4CB6B40034D9C3 /* toast_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_success@2x.png"; sourceTree = "<group>"; };
+		8645C3D21C4CB6B40034D9C3 /* toast_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_success@3x.png"; sourceTree = "<group>"; };
+		8645C3D31C4CB6B40034D9C3 /* toast_talk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toast_talk.png; sourceTree = "<group>"; };
+		8645C3D41C4CB6B40034D9C3 /* toast_talk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_talk@2x.png"; sourceTree = "<group>"; };
+		8645C3D51C4CB6B40034D9C3 /* toast_talk@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toast_talk@3x.png"; sourceTree = "<group>"; };
+		8A6FC79CBC6B8985BEA9EB333241469E /* ACNavBarDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ACNavBarDrawer.m; sourceTree = "<group>"; };
+		8D6F0DBB98B05F868DDE5CE758936599 /* Pods-QWToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E08C707D39D324B8BF8870F12354398 /* NoteBanner+QWDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoteBanner+QWDrawer.h"; sourceTree = "<group>"; };
+		905981490A39471B9D71ABE48E54EF0E /* Pods-QWToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Example-dummy.m"; sourceTree = "<group>"; };
+		A2D4B4CB2DFF0550E4F2977EA7BC243C /* BannerMananger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BannerMananger.m; sourceTree = "<group>"; };
+		A31DFE50C849A8DE17130F2EA94C50F0 /* Pods-QWToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B09EFE34E8F894F2A0676B1B1B12007F /* QWToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QWToast-dummy.m"; sourceTree = "<group>"; };
+		B0ED9144620B43001C97DA0ED33AEE1B /* Pods-QWToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B7748C3201C313666FBC5EC445861E0B /* Pods-QWToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BE468475C4AF743B064E8600CE5B9FA8 /* QWToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QWToast.h; sourceTree = "<group>"; };
-		C2779706FCD7F78BC81B72D15735CDF0 /* Pods-QWToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C36CFE28F841CBEA2BA4EADED9156A1D /* NoteBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteBanner.h; sourceTree = "<group>"; };
 		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		C659B104BEE500DF7827FE28458CD8AC /* Pods-QWToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C67608EFFBB6FC6FB1D0C56BDFC6BB6B /* Pods-QWToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-resources.sh"; sourceTree = "<group>"; };
-		CA920B62C934B57E46E9AED02A9D28D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAA0BED35A643083CF07D33C634A7A7C /* NoteBanner+QWDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NoteBanner+QWDrawer.m"; sourceTree = "<group>"; };
-		F97756F0267FE539DE749238913C73BC /* ACNavBarDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ACNavBarDrawer.h; sourceTree = "<group>"; };
-		FD714AC80FDBE6CB2D53E2A23C07B074 /* Pods-QWToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		FE7EAB447F1EF5C9DC841E282E7A098E /* Pods-QWToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5D8659F319AF136FB663680B456122F /* BannerMananger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BannerMananger.h; sourceTree = "<group>"; };
+		E3E84FB539C149A65471D49F5CE4433E /* QWToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5B42941C452E531525FB926880ADD68 /* QWToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QWToast.h; sourceTree = "<group>"; };
+		F5C1843F737F1EC8B7412D0352C8895E /* libQWToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQWToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D9755ACE9E918610B88DC873816784 /* libPods-QWToast_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QWToast_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB35A0FF9F71EEDB1E5DD8BB3A16060F /* Pods-QWToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3A6F04B9DB84E5330577BF6C1AA79C72 /* Frameworks */ = {
+		7798F3CF5B60A48E812303D5ADBED860 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3AB881D0D7EEC6F375CCAC842E59642 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		93ED2EEE6A2191210FBC4C7CA9EB074C /* Frameworks */ = {
+		8323CF4A026D54DD85ACF4F25BEA8936 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E0B97079D92E904D9D309CE0A4B4661 /* Foundation.framework in Frameworks */,
+				D3D1A7D47B0DFDD3096B36D9C8C3E7FA /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE3A60B99D6C39FE430C6ADBF753A4E9 /* Frameworks */ = {
+		85C3B015F3BD1CE7CF050D7035931C79 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F7472718AB25CCDA0443D62565D8122 /* Foundation.framework in Frameworks */,
-				1F19DE1B1A108F8911FCEB98EA727070 /* UIKit.framework in Frameworks */,
+				97D1F4ADFE912143E8E25811F078E942 /* Foundation.framework in Frameworks */,
+				7E26869224C608BC8B20A1E72628A88F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF9A4CC4BC4149C230FD48FAA0A512AB /* Frameworks */ = {
+		A813F46CD42C1E709956431DB0C30215 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A098A93AD68A9B2167B2802870245FB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		07045E1645A46EC1450E27E6EE142958 /* Pods-QWToast_Example */ = {
+		0456913EE7706E22F8BF41AC2AF27818 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9BB0E3E4CE1F021AB051E27E7393BED9 /* Info.plist */,
-				96B13B62041F0351C18287C6D6C8C29C /* Pods-QWToast_Example.modulemap */,
-				FE7EAB447F1EF5C9DC841E282E7A098E /* Pods-QWToast_Example-acknowledgements.markdown */,
-				8DCE77FE2A9B52767FDCE4530F8416E4 /* Pods-QWToast_Example-acknowledgements.plist */,
-				6D423F5A5D2697B450EEEC7EB303626D /* Pods-QWToast_Example-dummy.m */,
-				A3F3BC710FC663EC5687393B3C8A5F00 /* Pods-QWToast_Example-frameworks.sh */,
-				C67608EFFBB6FC6FB1D0C56BDFC6BB6B /* Pods-QWToast_Example-resources.sh */,
-				677A18D82C95559EE858A4D2BB11371F /* Pods-QWToast_Example-umbrella.h */,
-				3F913F7D04262818115228A325823EB0 /* Pods-QWToast_Example.debug.xcconfig */,
-				94A053B2BF3E1B739AFD2E2145FD0293 /* Pods-QWToast_Example.release.xcconfig */,
+				59ECFC4274BDAD419A30FF02B27ADD60 /* ACNavBarDrawer.h */,
+				8A6FC79CBC6B8985BEA9EB333241469E /* ACNavBarDrawer.m */,
+				D5D8659F319AF136FB663680B456122F /* BannerMananger.h */,
+				A2D4B4CB2DFF0550E4F2977EA7BC243C /* BannerMananger.m */,
+				4CB4AEC09559EA609A6BDCA1CA0B45F4 /* NoteBanner.h */,
+				32692C1096C1D4404B26A53E5CFFA941 /* NoteBanner.m */,
+				8E08C707D39D324B8BF8870F12354398 /* NoteBanner+QWDrawer.h */,
+				359643C485194D61A90E186D125A29FD /* NoteBanner+QWDrawer.m */,
+				E5B42941C452E531525FB926880ADD68 /* QWToast.h */,
 			);
-			name = "Pods-QWToast_Example";
-			path = "Target Support Files/Pods-QWToast_Example";
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
@@ -163,14 +173,6 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		36CB2D150D39272692E8034E183E9F8B /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8DDE2622DC30E17200ADB3BA206F7941 /* Assets */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,225 +181,165 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4E58D0A2905A290F120C525BCB725EF2 /* Pods-QWToast_Tests */ = {
+		553CCE756F9CF86F814DCC2ABC220DEE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CA920B62C934B57E46E9AED02A9D28D2 /* Info.plist */,
-				71F315D3416B4603ED4D388AA10DDC63 /* Pods-QWToast_Tests.modulemap */,
-				FD714AC80FDBE6CB2D53E2A23C07B074 /* Pods-QWToast_Tests-acknowledgements.markdown */,
-				C659B104BEE500DF7827FE28458CD8AC /* Pods-QWToast_Tests-acknowledgements.plist */,
-				3F0E7BDAB367E5E0E24F85337E48CC81 /* Pods-QWToast_Tests-dummy.m */,
-				3EFCE7420ABF65F4C18442001209568E /* Pods-QWToast_Tests-frameworks.sh */,
-				533769D3015E49CBDCDBBDC7260FCD32 /* Pods-QWToast_Tests-resources.sh */,
-				088D3B8F4160918FD9F6BACB40DD5501 /* Pods-QWToast_Tests-umbrella.h */,
-				07E0298D08EAC35D6CC503A185889C2D /* Pods-QWToast_Tests.debug.xcconfig */,
-				C2779706FCD7F78BC81B72D15735CDF0 /* Pods-QWToast_Tests.release.xcconfig */,
+				292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */,
+				B09EFE34E8F894F2A0676B1B1B12007F /* QWToast-dummy.m */,
+				1BE65D849647E5EE055FEDA2F5FFE71B /* QWToast-prefix.pch */,
 			);
-			name = "Pods-QWToast_Tests";
-			path = "Target Support Files/Pods-QWToast_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QWToast";
 			sourceTree = "<group>";
 		};
-		58D83885C41F88CF5ED4032471E4343B /* Resources */ = {
+		6F091E2276CA759F85F8F330F790B1AC /* Pods-QWToast_Example */ = {
 			isa = PBXGroup;
 			children = (
-				36CB2D150D39272692E8034E183E9F8B /* Pod */,
+				5E0D87597E18348FAEA9C4CAF90BCAF0 /* Pods-QWToast_Example-acknowledgements.markdown */,
+				A31DFE50C849A8DE17130F2EA94C50F0 /* Pods-QWToast_Example-acknowledgements.plist */,
+				905981490A39471B9D71ABE48E54EF0E /* Pods-QWToast_Example-dummy.m */,
+				5A4F9BA7534F0E8754C8DE2751609DB7 /* Pods-QWToast_Example-frameworks.sh */,
+				B7748C3201C313666FBC5EC445861E0B /* Pods-QWToast_Example-resources.sh */,
+				B0ED9144620B43001C97DA0ED33AEE1B /* Pods-QWToast_Example.debug.xcconfig */,
+				641194E06693197876757BCD7EBDF3D0 /* Pods-QWToast_Example.release.xcconfig */,
 			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		6A5EFA0D37622211A60D0765A80AEC2D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				F97756F0267FE539DE749238913C73BC /* ACNavBarDrawer.h */,
-				951BA20133222772B6CF773355B0D801 /* ACNavBarDrawer.m */,
-				049E69896DCAD72987E4C8EAD716610A /* BannerMananger.h */,
-				66EEA82B4FB09FE48369F2CE1DC567CB /* BannerMananger.m */,
-				C36CFE28F841CBEA2BA4EADED9156A1D /* NoteBanner.h */,
-				33DF09CA374D27D2A84B39E0EB2F245D /* NoteBanner.m */,
-				7FFE46AF222EA504A282A412BB72B735 /* NoteBanner+QWDrawer.h */,
-				CAA0BED35A643083CF07D33C634A7A7C /* NoteBanner+QWDrawer.m */,
-				BE468475C4AF743B064E8600CE5B9FA8 /* QWToast.h */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		7AABA936D815AF2C9836EA68BFD0E4F6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F3AF456E92C1FBDC54443B0A93CE7BA6 /* QWToast */,
-			);
-			name = "Development Pods";
+			name = "Pods-QWToast_Example";
+			path = "Target Support Files/Pods-QWToast_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				7AABA936D815AF2C9836EA68BFD0E4F6 /* Development Pods */,
+				D1F9F9C98B546B98E840CB7FA49B561E /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				B3EC23E7A6BD68F328759BC796D2AC5E /* Products */,
-				D736927E8DD966577723EA6BF4D3A847 /* Targets Support Files */,
+				9E80FC8EA9A8E3C1689D1E745B5DCA0A /* Products */,
+				AEF1D3C7770FEB8E8DDC29BF4E7AB9EF /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		8DDE2622DC30E17200ADB3BA206F7941 /* Assets */ = {
+		8645C3BA1C4CB6B40034D9C3 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				92AFF7D13F8A8816F17501EA044E957D /* Media.xcassets */,
+				8645C3BB1C4CB6B40034D9C3 /* icon_arrow_white.png */,
+				8645C3BC1C4CB6B40034D9C3 /* icon_arrow_white@2x.png */,
+				8645C3BD1C4CB6B40034D9C3 /* icon_arrow_white@3x.png */,
+				8645C3BE1C4CB6B40034D9C3 /* toast_fail.png */,
+				8645C3BF1C4CB6B40034D9C3 /* toast_fail@2x.png */,
+				8645C3C01C4CB6B40034D9C3 /* toast_fail@3x.png */,
+				8645C3C11C4CB6B40034D9C3 /* toast_fail_blue.png */,
+				8645C3C21C4CB6B40034D9C3 /* toast_fail_blue@2x.png */,
+				8645C3C31C4CB6B40034D9C3 /* toast_fail_blue@3x.png */,
+				8645C3C41C4CB6B40034D9C3 /* toast_refresh.png */,
+				8645C3C51C4CB6B40034D9C3 /* toast_refresh@2x.png */,
+				8645C3C61C4CB6B40034D9C3 /* toast_refresh@3x.png */,
+				8645C3C71C4CB6B40034D9C3 /* toast_refresh_blue.png */,
+				8645C3C81C4CB6B40034D9C3 /* toast_refresh_blue@2x.png */,
+				8645C3C91C4CB6B40034D9C3 /* toast_refresh_blue@3x.png */,
+				8645C3CA1C4CB6B40034D9C3 /* toast_save.png */,
+				8645C3CB1C4CB6B40034D9C3 /* toast_save@2x.png */,
+				8645C3CC1C4CB6B40034D9C3 /* toast_save@3x.png */,
+				8645C3CD1C4CB6B40034D9C3 /* toast_settings.png */,
+				8645C3CE1C4CB6B40034D9C3 /* toast_settings@2x.png */,
+				8645C3CF1C4CB6B40034D9C3 /* toast_settings@3x.png */,
+				8645C3D01C4CB6B40034D9C3 /* toast_success.png */,
+				8645C3D11C4CB6B40034D9C3 /* toast_success@2x.png */,
+				8645C3D21C4CB6B40034D9C3 /* toast_success@3x.png */,
+				8645C3D31C4CB6B40034D9C3 /* toast_talk.png */,
+				8645C3D41C4CB6B40034D9C3 /* toast_talk@2x.png */,
+				8645C3D51C4CB6B40034D9C3 /* toast_talk@3x.png */,
 			);
-			path = Assets;
+			name = Assets;
+			path = Pod/Assets;
 			sourceTree = "<group>";
 		};
-		B3EC23E7A6BD68F328759BC796D2AC5E /* Products */ = {
+		90199235EB0A835DE219B2F36138390A /* Pods-QWToast_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				711B3752D52559B0247E7E0FF64379AA /* Pods_QWToast_Example.framework */,
-				13EADE2745F0222DCB1DB3E31F8E77C6 /* Pods_QWToast_Tests.framework */,
-				2AD258BB5445EA1CE88B763CA689AD8C /* QWToast.bundle */,
-				13A125C214D6E0E0F7B770A59B01A981 /* QWToast.framework */,
+				62751B1A63CABB77569B6997850F9618 /* Pods-QWToast_Tests-acknowledgements.markdown */,
+				4647EFE9B4D558333D01EF14689E4F2A /* Pods-QWToast_Tests-acknowledgements.plist */,
+				256C009C2C526D82FA62F9697228518B /* Pods-QWToast_Tests-dummy.m */,
+				1F1501C06171C2B11DFF131BF1276EF0 /* Pods-QWToast_Tests-frameworks.sh */,
+				03C972C0C0F59F02B12F2389BD22F1FD /* Pods-QWToast_Tests-resources.sh */,
+				8D6F0DBB98B05F868DDE5CE758936599 /* Pods-QWToast_Tests.debug.xcconfig */,
+				FB35A0FF9F71EEDB1E5DD8BB3A16060F /* Pods-QWToast_Tests.release.xcconfig */,
+			);
+			name = "Pods-QWToast_Tests";
+			path = "Target Support Files/Pods-QWToast_Tests";
+			sourceTree = "<group>";
+		};
+		9E80FC8EA9A8E3C1689D1E745B5DCA0A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D9755ACE9E918610B88DC873816784 /* libPods-QWToast_Example.a */,
+				774DCEFEAB68C9B77824DA6AC7637C31 /* libPods-QWToast_Tests.a */,
+				F5C1843F737F1EC8B7412D0352C8895E /* libQWToast.a */,
+				E3E84FB539C149A65471D49F5CE4433E /* QWToast.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D736927E8DD966577723EA6BF4D3A847 /* Targets Support Files */ = {
+		AC4EE66BE54DAD7D7E11FAA582F24161 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				07045E1645A46EC1450E27E6EE142958 /* Pods-QWToast_Example */,
-				4E58D0A2905A290F120C525BCB725EF2 /* Pods-QWToast_Tests */,
+				0456913EE7706E22F8BF41AC2AF27818 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		AEF1D3C7770FEB8E8DDC29BF4E7AB9EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F091E2276CA759F85F8F330F790B1AC /* Pods-QWToast_Example */,
+				90199235EB0A835DE219B2F36138390A /* Pods-QWToast_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		E0ED6F66A6D29584D50FCCAA5E1D59C5 /* Support Files */ = {
+		D1F9F9C98B546B98E840CB7FA49B561E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				1370E6301DE63B78D216A73B700438A0 /* Info.plist */,
-				5067EAE29380E85DCD444DA04DEB5808 /* QWToast.modulemap */,
-				5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */,
-				2680AD29402FA3A5FED31F50F7141323 /* QWToast-dummy.m */,
-				29188A0D8448CA0D884590C3510D8183 /* QWToast-prefix.pch */,
-				4DF62E4CAF33A320D673F9669579FF54 /* QWToast-umbrella.h */,
+				E37BE6CCB27111A283C3FC6A7DEDEF5D /* QWToast */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QWToast";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		F3AF456E92C1FBDC54443B0A93CE7BA6 /* QWToast */ = {
+		E37BE6CCB27111A283C3FC6A7DEDEF5D /* QWToast */ = {
 			isa = PBXGroup;
 			children = (
-				FE3C57426BB21B81243DA224DD434C42 /* Pod */,
-				58D83885C41F88CF5ED4032471E4343B /* Resources */,
-				E0ED6F66A6D29584D50FCCAA5E1D59C5 /* Support Files */,
+				8645C3BA1C4CB6B40034D9C3 /* Assets */,
+				AC4EE66BE54DAD7D7E11FAA582F24161 /* Pod */,
+				553CCE756F9CF86F814DCC2ABC220DEE /* Support Files */,
 			);
 			name = QWToast;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		FE3C57426BB21B81243DA224DD434C42 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6A5EFA0D37622211A60D0765A80AEC2D /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		06BE1BCD2C7A9629EB3B77D2E176D3CB /* Headers */ = {
+		497C5A6AF067CCCAD3D186ECFBE0155E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F8636B95B80019144B6F49F287F0A26 /* ACNavBarDrawer.h in Headers */,
-				AF78CC56E8D07F4E0124BDEFEF4C5B08 /* BannerMananger.h in Headers */,
-				9C20753EF85EC8000BC8C4F263F730AA /* NoteBanner+QWDrawer.h in Headers */,
-				D79F0C0869237E1A02637F716082C621 /* NoteBanner.h in Headers */,
-				FA86C071DCA3337A2C3DD2D56D9BD178 /* QWToast-umbrella.h in Headers */,
-				B633795644A5E6572DD2A22DAD7479F9 /* QWToast.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		77FF383713C2B6EE62FAF0A045372CDD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CE5CA4D9FC28F2746872119430E18605 /* Pods-QWToast_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB8182EE8FC89CB4A87724499BE3511E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3890832B15C69581AD811A16CFD4786D /* Pods-QWToast_Tests-umbrella.h in Headers */,
+				E9A0A364E9DBCC6921755A164D367A0C /* ACNavBarDrawer.h in Headers */,
+				B1440B624EC8BA8FDB07BA9B3F5E8B61 /* BannerMananger.h in Headers */,
+				85A4E4999B81E010D0818FF7CEAA8A10 /* NoteBanner+QWDrawer.h in Headers */,
+				C5A2E3490050B78A32B924067FD0B02A /* NoteBanner.h in Headers */,
+				334AC8931E2517EC35E6DAF5C4FD341A /* QWToast.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1F7C7563B8546CB3BAC3B09B76EB13F9 /* Pods-QWToast_Tests */ = {
+		12061990F0AA0904A94F881CF331909C /* QWToast-QWToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB703B5C2B39D50664A6CE6596AAB610 /* Build configuration list for PBXNativeTarget "Pods-QWToast_Tests" */;
+			buildConfigurationList = F4FFB47F320A5AE81E6310EC5C49AD0A /* Build configuration list for PBXNativeTarget "QWToast-QWToast" */;
 			buildPhases = (
-				4B6ACCE7419909839C6C951D343F1064 /* Sources */,
-				93ED2EEE6A2191210FBC4C7CA9EB074C /* Frameworks */,
-				FB8182EE8FC89CB4A87724499BE3511E /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				98836419A723E02225467697238C85F8 /* PBXTargetDependency */,
-			);
-			name = "Pods-QWToast_Tests";
-			productName = "Pods-QWToast_Tests";
-			productReference = 13EADE2745F0222DCB1DB3E31F8E77C6 /* Pods_QWToast_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		6F15079671709DAE28C05DD8F6899423 /* QWToast */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 654F21DF9C04D38CA8CC0376585C27B6 /* Build configuration list for PBXNativeTarget "QWToast" */;
-			buildPhases = (
-				E1145227D0B911B2FB791B99811B47AF /* Sources */,
-				AE3A60B99D6C39FE430C6ADBF753A4E9 /* Frameworks */,
-				F2BECCBCD673ED6DFFBBA6E224BBCC48 /* Resources */,
-				06BE1BCD2C7A9629EB3B77D2E176D3CB /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				71C0A8E3902A557562B24C4CC1A15C27 /* PBXTargetDependency */,
-			);
-			name = QWToast;
-			productName = QWToast;
-			productReference = 13A125C214D6E0E0F7B770A59B01A981 /* QWToast.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A257370B5BAE821CDCB9F61A72DFD208 /* Pods-QWToast_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AC21DF1ABC4147B9AC7C20C6AD936541 /* Build configuration list for PBXNativeTarget "Pods-QWToast_Example" */;
-			buildPhases = (
-				1E9327280C5FD56F8028997955CA8A8D /* Sources */,
-				BF9A4CC4BC4149C230FD48FAA0A512AB /* Frameworks */,
-				77FF383713C2B6EE62FAF0A045372CDD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1268F70C261EFB62B64B1602C0F71102 /* PBXTargetDependency */,
-			);
-			name = "Pods-QWToast_Example";
-			productName = "Pods-QWToast_Example";
-			productReference = 711B3752D52559B0247E7E0FF64379AA /* Pods_QWToast_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A339AB94DFB4FD0E2D594F577B4CE366 /* QWToast-QWToast */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D2DD9C8EEB4BBE0316D9BDAED9F70814 /* Build configuration list for PBXNativeTarget "QWToast-QWToast" */;
-			buildPhases = (
-				506809784C4F0B21EB678C1ED8E246FE /* Sources */,
-				3A6F04B9DB84E5330577BF6C1AA79C72 /* Frameworks */,
-				915D7CC14773A4A3CF583CC54266BED4 /* Resources */,
+				B3588CC9039C8803C091BC9AA9F69500 /* Sources */,
+				A813F46CD42C1E709956431DB0C30215 /* Frameworks */,
+				D7E3B26805C0BD7B8E730A0DCFF6A74F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -405,8 +347,60 @@
 			);
 			name = "QWToast-QWToast";
 			productName = "QWToast-QWToast";
-			productReference = 2AD258BB5445EA1CE88B763CA689AD8C /* QWToast.bundle */;
+			productReference = E3E84FB539C149A65471D49F5CE4433E /* QWToast.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		2C6A466AD937672E4B9F538D43DCF830 /* QWToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF46B7B07371B4F81D9F0C702ED37B97 /* Build configuration list for PBXNativeTarget "QWToast" */;
+			buildPhases = (
+				CD20D24FE7161DF0A7DD81A5223C2DB8 /* Sources */,
+				85C3B015F3BD1CE7CF050D7035931C79 /* Frameworks */,
+				497C5A6AF067CCCAD3D186ECFBE0155E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F1F94AF697F743F6A261851A66FFE55 /* PBXTargetDependency */,
+			);
+			name = QWToast;
+			productName = QWToast;
+			productReference = F5C1843F737F1EC8B7412D0352C8895E /* libQWToast.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A23678EF7947E8F4275F0D85C5588B38 /* Pods-QWToast_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7CB1F882C9C67636843250C1968A0FC /* Build configuration list for PBXNativeTarget "Pods-QWToast_Example" */;
+			buildPhases = (
+				12291B5DF9B19ADF7CF4455BD22A38CC /* Sources */,
+				8323CF4A026D54DD85ACF4F25BEA8936 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78744332BB76AA886D381EAAAA665D60 /* PBXTargetDependency */,
+			);
+			name = "Pods-QWToast_Example";
+			productName = "Pods-QWToast_Example";
+			productReference = F5D9755ACE9E918610B88DC873816784 /* libPods-QWToast_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D26301825A9B8E86A1269BB9C5289185 /* Pods-QWToast_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F519BC5663454CC6673BAEA6567B1CC /* Build configuration list for PBXNativeTarget "Pods-QWToast_Tests" */;
+			buildPhases = (
+				A4E7171C83DE9765628BEC3F6482C85E /* Sources */,
+				7798F3CF5B60A48E812303D5ADBED860 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35247B629859E989E14ABFA0A1E2803F /* PBXTargetDependency */,
+			);
+			name = "Pods-QWToast_Tests";
+			productName = "Pods-QWToast_Tests";
+			productReference = 774DCEFEAB68C9B77824DA6AC7637C31 /* libPods-QWToast_Tests.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -425,93 +419,84 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = B3EC23E7A6BD68F328759BC796D2AC5E /* Products */;
+			productRefGroup = 9E80FC8EA9A8E3C1689D1E745B5DCA0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A257370B5BAE821CDCB9F61A72DFD208 /* Pods-QWToast_Example */,
-				1F7C7563B8546CB3BAC3B09B76EB13F9 /* Pods-QWToast_Tests */,
-				6F15079671709DAE28C05DD8F6899423 /* QWToast */,
-				A339AB94DFB4FD0E2D594F577B4CE366 /* QWToast-QWToast */,
+				A23678EF7947E8F4275F0D85C5588B38 /* Pods-QWToast_Example */,
+				D26301825A9B8E86A1269BB9C5289185 /* Pods-QWToast_Tests */,
+				2C6A466AD937672E4B9F538D43DCF830 /* QWToast */,
+				12061990F0AA0904A94F881CF331909C /* QWToast-QWToast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		915D7CC14773A4A3CF583CC54266BED4 /* Resources */ = {
+		D7E3B26805C0BD7B8E730A0DCFF6A74F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EE4DFB5E707DAD6B6390A637A62B461 /* Media.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F2BECCBCD673ED6DFFBBA6E224BBCC48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FD565B7A3958E680FE7D0BF43CA738BE /* QWToast.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E9327280C5FD56F8028997955CA8A8D /* Sources */ = {
+		12291B5DF9B19ADF7CF4455BD22A38CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF55473B51346CC2D7EC025471CB8FF /* Pods-QWToast_Example-dummy.m in Sources */,
+				7A2633021B62F1023A9A8C244FAB317D /* Pods-QWToast_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4B6ACCE7419909839C6C951D343F1064 /* Sources */ = {
+		A4E7171C83DE9765628BEC3F6482C85E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2571336F961ECD80D7A5315D8CF1E51E /* Pods-QWToast_Tests-dummy.m in Sources */,
+				16BF5B41E3D93406C51585AB7A7BB5B0 /* Pods-QWToast_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		506809784C4F0B21EB678C1ED8E246FE /* Sources */ = {
+		B3588CC9039C8803C091BC9AA9F69500 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1145227D0B911B2FB791B99811B47AF /* Sources */ = {
+		CD20D24FE7161DF0A7DD81A5223C2DB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20EDCCF99846FE7636A95E8C4C9126A7 /* ACNavBarDrawer.m in Sources */,
-				C5F5AECFFD9AF11CA1D47D80CC5528DF /* BannerMananger.m in Sources */,
-				1EC3C97E129A62D1C26955ED1017A407 /* NoteBanner+QWDrawer.m in Sources */,
-				A1EF252BCA316437509C02FFA0490025 /* NoteBanner.m in Sources */,
-				F816D6C449B61B7B0183B9F4F1C8D95A /* QWToast-dummy.m in Sources */,
+				B950B1B9BFA52C702C4338072E757D21 /* ACNavBarDrawer.m in Sources */,
+				71E1746E738DA7B65AC0A88A8E188F09 /* BannerMananger.m in Sources */,
+				45A06636AADA055B524CAD8F37A3306C /* NoteBanner+QWDrawer.m in Sources */,
+				C0D3697D986F8A51378D37434E6E896B /* NoteBanner.m in Sources */,
+				8CA8685C00BFD700505A875F8E79C3CD /* QWToast-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1268F70C261EFB62B64B1602C0F71102 /* PBXTargetDependency */ = {
+		35247B629859E989E14ABFA0A1E2803F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QWToast;
-			target = 6F15079671709DAE28C05DD8F6899423 /* QWToast */;
-			targetProxy = 8E1B6036DD112592F15514B9A7B3D76E /* PBXContainerItemProxy */;
+			target = 2C6A466AD937672E4B9F538D43DCF830 /* QWToast */;
+			targetProxy = 56580F8ADF02C7E1F30F8C0FA6EF788F /* PBXContainerItemProxy */;
 		};
-		71C0A8E3902A557562B24C4CC1A15C27 /* PBXTargetDependency */ = {
+		78744332BB76AA886D381EAAAA665D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QWToast;
+			target = 2C6A466AD937672E4B9F538D43DCF830 /* QWToast */;
+			targetProxy = 17E5D9877CEB1DE5028ACA34FAD98EBA /* PBXContainerItemProxy */;
+		};
+		8F1F94AF697F743F6A261851A66FFE55 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "QWToast-QWToast";
-			target = A339AB94DFB4FD0E2D594F577B4CE366 /* QWToast-QWToast */;
-			targetProxy = BB189906AE76FE612AB026EFCBE10025 /* PBXContainerItemProxy */;
-		};
-		98836419A723E02225467697238C85F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QWToast;
-			target = 6F15079671709DAE28C05DD8F6899423 /* QWToast */;
-			targetProxy = D4EDC81EC42614D1369FC3477CF01BDE /* PBXContainerItemProxy */;
+			target = 12061990F0AA0904A94F881CF331909C /* QWToast-QWToast */;
+			targetProxy = FB005B1BA14C14338E246FEC1076F24A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -550,35 +535,22 @@
 			};
 			name = Release;
 		};
-		0491DA210F6DBE64FE2F2D7F0344BD9F /* Debug */ = {
+		0999C8CAE65A02E865028CF213966DE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07E0298D08EAC35D6CC503A185889C2D /* Pods-QWToast_Tests.debug.xcconfig */;
+			baseConfigurationReference = 641194E06693197876757BCD7EBDF3D0 /* Pods-QWToast_Example.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QWToast_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QWToast_Tests/Pods-QWToast_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_QWToast_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -619,96 +591,78 @@
 			};
 			name = Debug;
 		};
-		1D371C24B083B3595D7B2A286638710D /* Release */ = {
+		1906F6E012C192F7A10A9C5FF2462F9E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94A053B2BF3E1B739AFD2E2145FD0293 /* Pods-QWToast_Example.release.xcconfig */;
+			baseConfigurationReference = B0ED9144620B43001C97DA0ED33AEE1B /* Pods-QWToast_Example.debug.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QWToast_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QWToast_Example/Pods-QWToast_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		435C61456117A8FD4081990D23EBBD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6F0DBB98B05F868DDE5CE758936599 /* Pods-QWToast_Tests.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		43EB88FB3CF7A127109C97F814655081 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB35A0FF9F71EEDB1E5DD8BB3A16060F /* Pods-QWToast_Tests.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_QWToast_Example;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6DA25A49EB41BB690FFBF2A59911DB6B /* Release */ = {
+		6FF899D01BE28E3C789D8C53D1BAAEC4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */;
+			baseConfigurationReference = 292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/QWToast/QWToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QWToast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QWToast/QWToast.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = QWToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		87AA1BFCB41B47AA2DC877BB2B69B8B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2779706FCD7F78BC81B72D15735CDF0 /* Pods-QWToast_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QWToast_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QWToast_Tests/Pods-QWToast_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_QWToast_Tests;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		8AB572E098A13E922F8D16DFD3D4B4C7 /* Release */ = {
+		ABCB541CD3AB2056B8BB2CEFBC932EB0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */;
+			baseConfigurationReference = 292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = QWToast;
@@ -718,72 +672,33 @@
 			};
 			name = Release;
 		};
-		B11432258051AA61FF7BE1B8419DEC5E /* Debug */ = {
+		BE33497FFBBC13C9470CF3F1D3C16830 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F913F7D04262818115228A325823EB0 /* Pods-QWToast_Example.debug.xcconfig */;
+			baseConfigurationReference = 292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-QWToast_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREFIX_HEADER = "Target Support Files/QWToast/QWToast-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QWToast_Example/Pods-QWToast_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_QWToast_Example;
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		D5DBC3E94BD9B17C7517742B13C5EFE5 /* Debug */ = {
+		DD72BC77499160CE85E12A8C3CC10840 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */;
+			baseConfigurationReference = 292425798403C15EBD5F8939213A8DE6 /* QWToast.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = QWToast;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		DFB0799B032E04B78359F073036C8E44 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D4E79880E87192C746F6BD2D59D7AD2 /* QWToast.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QWToast/QWToast-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QWToast/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QWToast/QWToast.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = QWToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -799,38 +714,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		654F21DF9C04D38CA8CC0376585C27B6 /* Build configuration list for PBXNativeTarget "QWToast" */ = {
+		4F519BC5663454CC6673BAEA6567B1CC /* Build configuration list for PBXNativeTarget "Pods-QWToast_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DFB0799B032E04B78359F073036C8E44 /* Debug */,
-				6DA25A49EB41BB690FFBF2A59911DB6B /* Release */,
+				435C61456117A8FD4081990D23EBBD12 /* Debug */,
+				43EB88FB3CF7A127109C97F814655081 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AC21DF1ABC4147B9AC7C20C6AD936541 /* Build configuration list for PBXNativeTarget "Pods-QWToast_Example" */ = {
+		AF46B7B07371B4F81D9F0C702ED37B97 /* Build configuration list for PBXNativeTarget "QWToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B11432258051AA61FF7BE1B8419DEC5E /* Debug */,
-				1D371C24B083B3595D7B2A286638710D /* Release */,
+				BE33497FFBBC13C9470CF3F1D3C16830 /* Debug */,
+				6FF899D01BE28E3C789D8C53D1BAAEC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D2DD9C8EEB4BBE0316D9BDAED9F70814 /* Build configuration list for PBXNativeTarget "QWToast-QWToast" */ = {
+		E7CB1F882C9C67636843250C1968A0FC /* Build configuration list for PBXNativeTarget "Pods-QWToast_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5DBC3E94BD9B17C7517742B13C5EFE5 /* Debug */,
-				8AB572E098A13E922F8D16DFD3D4B4C7 /* Release */,
+				1906F6E012C192F7A10A9C5FF2462F9E /* Debug */,
+				0999C8CAE65A02E865028CF213966DE3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB703B5C2B39D50664A6CE6596AAB610 /* Build configuration list for PBXNativeTarget "Pods-QWToast_Tests" */ = {
+		F4FFB47F320A5AE81E6310EC5C49AD0A /* Build configuration list for PBXNativeTarget "QWToast-QWToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0491DA210F6DBE64FE2F2D7F0344BD9F /* Debug */,
-				87AA1BFCB41B47AA2DC877BB2B69B8B8 /* Release */,
+				DD72BC77499160CE85E12A8C3CC10840 /* Debug */,
+				ABCB541CD3AB2056B8BB2CEFBC932EB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

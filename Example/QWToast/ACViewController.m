@@ -33,7 +33,11 @@
 -(void)showToast:(id)sender
 {
     ACNavBarDrawer *_toast = [[ACNavBarDrawer alloc] initWithView:self.view];
-    [_toast showToastWithType:QWToastError Title:@"HAHAH"];
+    [_toast showToastWithType:QWToastError
+                       button:DrawerBtnRefresh
+                        Title:@"哈哈哈"
+                    subString:@"nihao"
+                    errorCode:4];
 }
 
 - (void)didReceiveMemoryWarning
