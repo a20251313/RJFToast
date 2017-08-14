@@ -212,20 +212,25 @@
     
     [self.foregroundColor set];
     
+//      [self.detailText drawInRect:CGRectMake(originX, 30.0f, constrainedWidth, detailTextFont.lineHeight) withFont:detailTextFont lineBreakMode:NSLineBreakByTruncatingTail];
+    
     if (self.detailText) {
         UIFont *detailTextFont = CUSTOM_FONT_LIGHT(12.0f);
-   
+        
         [self.detailText drawInRect:CGRectMake(originX, 30.0f, constrainedWidth, detailTextFont.lineHeight) withAttributes:@{NSFontAttributeName:detailTextFont,NSLigatureAttributeName:@(NSLineBreakByTruncatingTail)}];
+       
         
         if (self.text) {
             UIFont *textFont = CUSTOM_FONT_LIGHT(16.0f);
-            [self.text drawInRect:CGRectMake(originX, 8.0f, constrainedWidth, textFont.lineHeight) withAttributes:@{NSFontAttributeName:textFont,NSLigatureAttributeName:@(NSLineBreakByTruncatingTail)}];
+            [self.detailText drawInRect:CGRectMake(originX, 8.0f, constrainedWidth, textFont.lineHeight) withAttributes:@{NSFontAttributeName:textFont,NSLigatureAttributeName:@(NSLineBreakByTruncatingTail)}];
         }
     }
     else if (self.text) {
         UIFont *textFont = CUSTOM_FONT_LIGHT(16.0f);
-        CGSize size = [self.text boundingRectWithSize:CGSizeMake(constrainedWidth, textFont.lineHeight * 2 + 10) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:textFont,NSLigatureAttributeName:@(NSLineBreakByWordWrapping)} context:NULL].size;
-        [self.text drawInRect:CGRectMake(originX, (rect.size.height - size.height) / 2.0f, constrainedWidth, ceilf(size.height)) withAttributes:@{NSFontAttributeName:textFont,NSLigatureAttributeName:@(NSLineBreakByWordWrapping)}];
+        CGSize size = [self.text boundingRectWithSize:CGSizeMake(constrainedWidth, textFont.lineHeight * 2 + 10) options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSLigatureAttributeName:@(NSLineBreakByWordWrapping)} context:NULL].size;
+        [self.detailText drawInRect:CGRectMake(originX, (rect.size.height - size.height) / 2.0f, constrainedWidth, ceilf(size.height)) withAttributes:@{NSFontAttributeName:textFont,NSLigatureAttributeName:@(NSLineBreakByWordWrapping)}];
+        
+  
     }
 }
 

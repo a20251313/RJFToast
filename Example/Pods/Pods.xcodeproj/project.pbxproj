@@ -7,442 +7,413 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0441A2DF020B642AC58F473B4CFB59CA /* toast_talk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 532819FE319FE0964B853C899CC1C0F8 /* toast_talk@2x.png */; };
-		0D0EA41BA70CEECD5F80418DA6E1E3CF /* toast_refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9591AA327A1D6077DB434F2A0DF6E2B5 /* toast_refresh@3x.png */; };
-		13572BAF8A04DA6F6A9CD482988EC29F /* toast_success.png in Resources */ = {isa = PBXBuildFile; fileRef = C002DFB7A6EE09D253199FAC0579917B /* toast_success.png */; };
-		16BF5B41E3D93406C51585AB7A7BB5B0 /* Pods-QWToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 256C009C2C526D82FA62F9697228518B /* Pods-QWToast_Tests-dummy.m */; };
-		28EBC6ADD4A2FFCD667EFF7F72F4AB10 /* icon_arrow_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 86EBC06BE4847B21257ADD71D2A41F58 /* icon_arrow_white@2x.png */; };
-		2E83AC50ED22441F980AA62B2E7D743C /* toast_refresh_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FE72E310ACDCEC49FBFD973BE7693A0 /* toast_refresh_blue.png */; };
-		334AC8931E2517EC35E6DAF5C4FD341A /* QWToast.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C30E1BB79D43D0641386CA23EF8C042 /* QWToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		45A06636AADA055B524CAD8F37A3306C /* NoteBanner+QWDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = FC2263C67A72EE6B1656FCA0E447ED17 /* NoteBanner+QWDrawer.m */; };
-		49A82FE811E897FBB4B70F830A6E9A36 /* toast_talk.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C95F5F5E30939528501A61E0AEEC3EE /* toast_talk.png */; };
-		4A76521DA39AD6080E055EA7EF9587A5 /* toast_save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C95FCD9978E94C4860FE46EB2CB75B /* toast_save@2x.png */; };
-		54579C506AB0049C5656B423482F2BA4 /* toast_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F152C75E0309A8FBE9961E1FFC7892 /* toast_refresh@2x.png */; };
-		562654561FD41694BC65B6788585A455 /* toast_fail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F8EC9F15347869B0FE47E486B54E8FC5 /* toast_fail@2x.png */; };
-		57E3964A095B68A8B002DC9C04F67B19 /* toast_fail.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DB8CCC686C3B40BFE05FEC90178238A /* toast_fail.png */; };
-		6699CAA6E92FD293F119BB0D527A55D5 /* toast_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4FBF730493D7080E6A83693C315C95 /* toast_save.png */; };
-		682D0774835600E6C840EB3279B21A9B /* toast_fail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1CF1D8CB217591F5190916697084BE06 /* toast_fail@3x.png */; };
-		6E5E343D23D2FBBD67DC8192E28BC756 /* toast_settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D015DFB38BC3FC6AAD9281BC882CE402 /* toast_settings@2x.png */; };
-		71E1746E738DA7B65AC0A88A8E188F09 /* BannerMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DAFE59BF75E2A7EE81C0DA5576FCEA2 /* BannerMananger.m */; };
-		789F17B9316619B5DEB3AC27085A80F4 /* toast_settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73DD6A321A145912F08CD8FBEE3CF687 /* toast_settings@3x.png */; };
-		793FA0DFA52C652477B04FD1BB153ECC /* toast_refresh_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C19466882CC772D7ACFF8518CED6F00 /* toast_refresh_blue@2x.png */; };
-		7A2633021B62F1023A9A8C244FAB317D /* Pods-QWToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 905981490A39471B9D71ABE48E54EF0E /* Pods-QWToast_Example-dummy.m */; };
-		7E26869224C608BC8B20A1E72628A88F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
-		8396DC8CD510DA0C6858DE2CA6FADC7D /* toast_fail_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D695804E1B52BBE58F4DC64B57783C9C /* toast_fail_blue@3x.png */; };
-		83E7E566E36969E67011150305A80862 /* toast_fail_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A07B7DD7E935AA6F9A787CF456C31A /* toast_fail_blue@2x.png */; };
-		85A4E4999B81E010D0818FF7CEAA8A10 /* NoteBanner+QWDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CF78F60323A45CE4131EFB9B3F3FCAA /* NoteBanner+QWDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		88E6CC6642C435781C8ACC799E9CF69F /* toast_fail_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 42DD6652DD9D4C59BF03A30D15BDCF82 /* toast_fail_blue.png */; };
-		8CA8685C00BFD700505A875F8E79C3CD /* QWToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E78EC0E8A9B3233D5949BD15D062B370 /* QWToast-dummy.m */; };
-		97893CD1D19D5D0B1DAC602CC83DA9D0 /* toast_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 744430151D4F47219AA5C1B11A25A87D /* toast_refresh.png */; };
-		97D1F4ADFE912143E8E25811F078E942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		B1440B624EC8BA8FDB07BA9B3F5E8B61 /* BannerMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = 9757A9075585BEC49585F64F33321A62 /* BannerMananger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B950B1B9BFA52C702C4338072E757D21 /* ACNavBarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C36F200EAAEFD1436BB521B32D6C29 /* ACNavBarDrawer.m */; };
-		C0D3697D986F8A51378D37434E6E896B /* NoteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 59484CEBF2ADC5AAC9B24BB493558E88 /* NoteBanner.m */; };
-		C5A2E3490050B78A32B924067FD0B02A /* NoteBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F15A1AF616D9594E9026069147366DF /* NoteBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEF7364AFB10180D8DF7B987AA807403 /* toast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 23849130933A9F732CC1D1617FF8CB64 /* toast_success@3x.png */; };
-		D3D1A7D47B0DFDD3096B36D9C8C3E7FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		DCD711C47CBB2A408F58AAA15E977308 /* icon_arrow_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2C9C6E38F37AD6F8EC6AE9BDECD588 /* icon_arrow_white@3x.png */; };
-		DF4BA5CCC140EA36DE16450E894D31A6 /* toast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCAAC5FC2DAF4C10D8C42658FB73207C /* toast_success@2x.png */; };
-		E15D5E3A3D0814CA1F23D03876390F9F /* toast_save@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC5453865C0FA55AFDA6554E03534EE /* toast_save@3x.png */; };
-		E3AB881D0D7EEC6F375CCAC842E59642 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		E5AF4CB93B0B5626D7C365648A61395D /* icon_arrow_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 62200EAF1D1B9B6256D5F18123728622 /* icon_arrow_white.png */; };
-		E9A0A364E9DBCC6921755A164D367A0C /* ACNavBarDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = B6A1A9241E085AC78D137731B2659AAD /* ACNavBarDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9ECF37D67FAAA12208579F4AB62DBB0 /* toast_refresh_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CFF338C4DA18995117156CB569AE6E0 /* toast_refresh_blue@3x.png */; };
-		F75D1066419AB6F00527882B2B519F6E /* toast_talk@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E60A7DCF56CA9220483DC67F3917709 /* toast_talk@3x.png */; };
-		F9423C0599871480132A4287CDDD4B3E /* toast_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 62FBAA49E75028D4F944B90723E88743 /* toast_settings.png */; };
+		02938B508C2CE5A29926D9BE7ED66C05 /* toast_settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E594EECF5A57530B52AAD151687787B6 /* toast_settings@2x.png */; };
+		043DB1C47C2050E53DC79C57DF47A940 /* toast_save@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3706FBE8E2A0E6232333E298F680E029 /* toast_save@3x.png */; };
+		0892A8A0AF6E87A41224DD56DBCE7511 /* toast_talk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 91C2A2B845D0861F1736CCEB7D59B6B8 /* toast_talk@2x.png */; };
+		0FADCBB133C3C2F8442E1FBE74A16DBF /* QWToast.h in Headers */ = {isa = PBXBuildFile; fileRef = CC1AEC280BC38B64935C90817775198D /* QWToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		168ADAE1C8CF442E7DC88ADAEBD4EB95 /* toast_fail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B5C65687B98D1264C0DD1DA2FDE7675 /* toast_fail@3x.png */; };
+		16CBD0FA14D13F46C0ED9F09B6DC88CC /* toast_refresh_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC44B86767C3FBCF1064EE172A9C7010 /* toast_refresh_blue@3x.png */; };
+		179610E4A12E9ABC400D1AFDE0527986 /* ACNavBarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A2E8045BB6A2224486F429FDF2874 /* ACNavBarDrawer.m */; };
+		1C950CFEE5D841A3EAE28189F16E7659 /* toast_settings.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FCBECB2B086CFA6FFF130B3F53BEC4 /* toast_settings.png */; };
+		21C65BEDBC649CD2185D0C148BFEDFC0 /* NoteBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = C14D964052D36EADA3E71B83D79704B6 /* NoteBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4250C0656EF192B5C9644ACE5AEA22 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8436533CEC029288113A22556AA9D09 /* MapKit.framework */; };
+		2D065E87A9F904B3A23B91DE74F50021 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		2FAD7D1FBAAE2BF7F043A11F2C67872D /* NoteBanner+QWDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 907E6A0B94620104A6A806609C688986 /* NoteBanner+QWDrawer.m */; };
+		30467BDBE8B42E9E4C23EEABFC91686C /* icon_arrow_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20AED1ECF577A40811C269103D3B77B0 /* icon_arrow_white@3x.png */; };
+		321BDD115D558027BF2FF7A023D4169E /* toast_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC784FEE0643774A5FCDBB50C170E150 /* toast_success@3x.png */; };
+		4BD8384FF2E3B13B8AD8545E10EA935D /* icon_arrow_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 185223DAA7F7930AE4243B7D6F80E56C /* icon_arrow_white.png */; };
+		4C78B40889A00F1863DCBDDE7631C8FE /* BannerMananger.m in Sources */ = {isa = PBXBuildFile; fileRef = B0E3901E3576B7D1C7E239E91E170378 /* BannerMananger.m */; };
+		50B0D57B401DBEE812AD3763C5A61FD0 /* toast_fail_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D715AA56E8F627A60C9528953E102D /* toast_fail_blue.png */; };
+		6DD4E7D6B84094DA885449268B7E2071 /* Pods-RJFToast_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 869B5D08B4CF1F601F80325209B9EE10 /* Pods-RJFToast_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4C6C870FEDD800D4409990044A9B64 /* Pods-RJFToast_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F938D086C65E04659AC2C02764E08F /* Pods-RJFToast_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E8BAABFD815A23E5B56018F6A127D80 /* RJFToast-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08AED02F81C29BEE711D378CFB204804 /* RJFToast-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74B31F462C136352DEEA7CF7584376C1 /* BannerMananger.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BFD53931326C8698A76B8F0B0D4D39 /* BannerMananger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74F66655736EE8E537D928C6D40DF052 /* toast_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = B2DAF3AD9BC056B3B6A028AE1A3C0B73 /* toast_refresh.png */; };
+		80DC053471491CF51CBC6540B0131282 /* toast_fail.png in Resources */ = {isa = PBXBuildFile; fileRef = 659FB7DC8E37619B4A5DC919EFD84F34 /* toast_fail.png */; };
+		8C2E6346E6AC40E3707E058BD2FD3209 /* toast_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81DB81AEDCC943078B425DB234F13F2E /* toast_success@2x.png */; };
+		95031AC60BAE9A59EC19B35A6815F510 /* NoteBanner+QWDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = F24E8601A709D3CFC6B2670063219379 /* NoteBanner+QWDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A44EA9FE180FF046153DC5F9D98CDD2E /* toast_save.png in Resources */ = {isa = PBXBuildFile; fileRef = 310ED3E5ECF92604EEE058E094E149A8 /* toast_save.png */; };
+		A539D98F138674AB4BAFC90A89FC8CC9 /* ACNavBarDrawer.h in Headers */ = {isa = PBXBuildFile; fileRef = D2349CA4930B818163E4F9F01BC8E0C3 /* ACNavBarDrawer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7157D63AA3AE8C63E7CDAAF1B6E5B7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */; };
+		A93865A972C88C7485A43572613BD029 /* toast_settings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC31CFEAC973EE4C97296ADD5B8BCFED /* toast_settings@3x.png */; };
+		AA3FF0939BE24499B94042F5612A2C2E /* icon_arrow_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8544F55EBF2E3FA55F1E66D4314E3F5 /* icon_arrow_white@2x.png */; };
+		AA570EE7D7C888C3D079DC268BC7362F /* toast_refresh_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5FEAC50A01E375308BC41A1429E7628 /* toast_refresh_blue@2x.png */; };
+		ABBE31943D24378AAE4B43D922D6F8E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		B525D5BF82D62650CD9BD48F834AEF66 /* RJFToast-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B501E449634C7F6B9B0C4C7D5155540A /* RJFToast-dummy.m */; };
+		BF30383BC8EA87D1C862C3C977C476F6 /* toast_refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 81E942AF6AFD56FFF7562558239F58EA /* toast_refresh@3x.png */; };
+		C02D4886F71C672E594B43D4D7CB258E /* toast_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C79AD05A19F7D64320A1FF52999626C /* toast_success.png */; };
+		C946B3800E539218C1943B3E555553A1 /* toast_talk.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A825CFA6D3B16E2D654712851A9CDF3 /* toast_talk.png */; };
+		C9B8E9B52630E6D905E0FA5640D81E03 /* Pods-RJFToast_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 40564A9DEECCF9A199B334867FCB173D /* Pods-RJFToast_Example-dummy.m */; };
+		CDDC28D291D96ACB90284651EB85F6E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */; };
+		CE63D821E888E0C2F1671B90F493A452 /* toast_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F83A7772404024D1348D9B912D19731 /* toast_refresh@2x.png */; };
+		CEDD163B5F9FCC6497DB5DA0A17BAA22 /* toast_save@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EDBC04ECE33497D672C78572C0D94FC9 /* toast_save@2x.png */; };
+		D2A4207578BF14C06D4989AB8ADD825C /* NoteBanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FAB9B3EF3F039D7C21E90243833F09A /* NoteBanner.m */; };
+		D35FA40C96EEDF6D793EDC13F48A7BF0 /* Pods-RJFToast_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 931030F9A7F9F3888A04022B6BD77EA5 /* Pods-RJFToast_Tests-dummy.m */; };
+		D83E79F7257EA88543EF083358D2E13D /* toast_fail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3ADDFAFBFE4EC526EB5D41813DE3D90 /* toast_fail@2x.png */; };
+		DBFA77D1F318902243A58918665D31C3 /* toast_fail_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 551EAFF0DC0BAD1B2505B445EB71A7EC /* toast_fail_blue@2x.png */; };
+		DDB1584AE2965209F62C7F602A93737B /* toast_talk@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC1F315F47A8C3B8082E6F7BBEE6E5B7 /* toast_talk@3x.png */; };
+		F18FAE4406A3E205D4594E0CCE234728 /* toast_fail_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C19C5F9B43245AAE7C6CE8263A016EA /* toast_fail_blue@3x.png */; };
+		F8D2B49F1ADAE5B1C2ED9CC7A6C2E7F5 /* toast_refresh_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 37EAB81A7E6A09E59C2BEE838456FEB2 /* toast_refresh_blue.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		17E5D9877CEB1DE5028ACA34FAD98EBA /* PBXContainerItemProxy */ = {
+		FF01BC309F380989E0A180A09BD77B40 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2C6A466AD937672E4B9F538D43DCF830;
-			remoteInfo = QWToast;
-		};
-		56580F8ADF02C7E1F30F8C0FA6EF788F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2C6A466AD937672E4B9F538D43DCF830;
-			remoteInfo = QWToast;
-		};
-		FB005B1BA14C14338E246FEC1076F24A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 12061990F0AA0904A94F881CF331909C;
-			remoteInfo = "QWToast-QWToast";
+			remoteGlobalIDString = 89A220CA864F8C2EDA143F7D37450B21;
+			remoteInfo = RJFToast;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		03C972C0C0F59F02B12F2389BD22F1FD /* Pods-QWToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-resources.sh"; sourceTree = "<group>"; };
-		0C30E1BB79D43D0641386CA23EF8C042 /* QWToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = QWToast.h; sourceTree = "<group>"; };
-		1C19466882CC772D7ACFF8518CED6F00 /* toast_refresh_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_refresh_blue@2x.png"; sourceTree = "<group>"; };
-		1CF1D8CB217591F5190916697084BE06 /* toast_fail@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_fail@3x.png"; sourceTree = "<group>"; };
-		1CF78F60323A45CE4131EFB9B3F3FCAA /* NoteBanner+QWDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NoteBanner+QWDrawer.h"; sourceTree = "<group>"; };
-		1F1501C06171C2B11DFF131BF1276EF0 /* Pods-QWToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		23849130933A9F732CC1D1617FF8CB64 /* toast_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_success@3x.png"; sourceTree = "<group>"; };
-		256C009C2C526D82FA62F9697228518B /* Pods-QWToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Tests-dummy.m"; sourceTree = "<group>"; };
-		3DAFE59BF75E2A7EE81C0DA5576FCEA2 /* BannerMananger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BannerMananger.m; sourceTree = "<group>"; };
-		3E4FBF730493D7080E6A83693C315C95 /* toast_save.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_save.png; sourceTree = "<group>"; };
-		42DD6652DD9D4C59BF03A30D15BDCF82 /* toast_fail_blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_fail_blue.png; sourceTree = "<group>"; };
-		4647EFE9B4D558333D01EF14689E4F2A /* Pods-QWToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E60A7DCF56CA9220483DC67F3917709 /* toast_talk@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_talk@3x.png"; sourceTree = "<group>"; };
-		532819FE319FE0964B853C899CC1C0F8 /* toast_talk@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_talk@2x.png"; sourceTree = "<group>"; };
-		59484CEBF2ADC5AAC9B24BB493558E88 /* NoteBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NoteBanner.m; sourceTree = "<group>"; };
-		5A4F9BA7534F0E8754C8DE2751609DB7 /* Pods-QWToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-frameworks.sh"; sourceTree = "<group>"; };
-		5E0D87597E18348FAEA9C4CAF90BCAF0 /* Pods-QWToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		62200EAF1D1B9B6256D5F18123728622 /* icon_arrow_white.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = icon_arrow_white.png; sourceTree = "<group>"; };
-		62751B1A63CABB77569B6997850F9618 /* Pods-QWToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QWToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		62FBAA49E75028D4F944B90723E88743 /* toast_settings.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_settings.png; sourceTree = "<group>"; };
-		641194E06693197876757BCD7EBDF3D0 /* Pods-QWToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6FE72E310ACDCEC49FBFD973BE7693A0 /* toast_refresh_blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_refresh_blue.png; sourceTree = "<group>"; };
-		73DD6A321A145912F08CD8FBEE3CF687 /* toast_settings@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_settings@3x.png"; sourceTree = "<group>"; };
-		744430151D4F47219AA5C1B11A25A87D /* toast_refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_refresh.png; sourceTree = "<group>"; };
-		74C95FCD9978E94C4860FE46EB2CB75B /* toast_save@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_save@2x.png"; sourceTree = "<group>"; };
-		774DCEFEAB68C9B77824DA6AC7637C31 /* libPods-QWToast_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QWToast_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7CFF338C4DA18995117156CB569AE6E0 /* toast_refresh_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_refresh_blue@3x.png"; sourceTree = "<group>"; };
-		7DB8CCC686C3B40BFE05FEC90178238A /* toast_fail.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_fail.png; sourceTree = "<group>"; };
-		86EBC06BE4847B21257ADD71D2A41F58 /* icon_arrow_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_arrow_white@2x.png"; sourceTree = "<group>"; };
-		8D2C9C6E38F37AD6F8EC6AE9BDECD588 /* icon_arrow_white@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "icon_arrow_white@3x.png"; sourceTree = "<group>"; };
-		8D6F0DBB98B05F868DDE5CE758936599 /* Pods-QWToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		905981490A39471B9D71ABE48E54EF0E /* Pods-QWToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QWToast_Example-dummy.m"; sourceTree = "<group>"; };
-		9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QWToast.xcconfig; sourceTree = "<group>"; };
-		9591AA327A1D6077DB434F2A0DF6E2B5 /* toast_refresh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_refresh@3x.png"; sourceTree = "<group>"; };
-		95C36F200EAAEFD1436BB521B32D6C29 /* ACNavBarDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ACNavBarDrawer.m; sourceTree = "<group>"; };
-		9757A9075585BEC49585F64F33321A62 /* BannerMananger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BannerMananger.h; sourceTree = "<group>"; };
-		9C95F5F5E30939528501A61E0AEEC3EE /* toast_talk.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_talk.png; sourceTree = "<group>"; };
-		9F15A1AF616D9594E9026069147366DF /* NoteBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NoteBanner.h; sourceTree = "<group>"; };
-		A31DFE50C849A8DE17130F2EA94C50F0 /* Pods-QWToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QWToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B0ED9144620B43001C97DA0ED33AEE1B /* Pods-QWToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B6A1A9241E085AC78D137731B2659AAD /* ACNavBarDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ACNavBarDrawer.h; sourceTree = "<group>"; };
-		B7748C3201C313666FBC5EC445861E0B /* Pods-QWToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QWToast_Example-resources.sh"; sourceTree = "<group>"; };
-		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BB12B0F9612C008954F571CE0E632D34 /* QWToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QWToast-prefix.pch"; sourceTree = "<group>"; };
-		BCAAC5FC2DAF4C10D8C42658FB73207C /* toast_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_success@2x.png"; sourceTree = "<group>"; };
-		C002DFB7A6EE09D253199FAC0579917B /* toast_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = toast_success.png; sourceTree = "<group>"; };
-		C0F152C75E0309A8FBE9961E1FFC7892 /* toast_refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_refresh@2x.png"; sourceTree = "<group>"; };
-		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D015DFB38BC3FC6AAD9281BC882CE402 /* toast_settings@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_settings@2x.png"; sourceTree = "<group>"; };
-		D695804E1B52BBE58F4DC64B57783C9C /* toast_fail_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_fail_blue@3x.png"; sourceTree = "<group>"; };
-		D7A07B7DD7E935AA6F9A787CF456C31A /* toast_fail_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_fail_blue@2x.png"; sourceTree = "<group>"; };
-		E3E84FB539C149A65471D49F5CE4433E /* QWToast.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWToast.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E78EC0E8A9B3233D5949BD15D062B370 /* QWToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QWToast-dummy.m"; sourceTree = "<group>"; };
-		EAC5453865C0FA55AFDA6554E03534EE /* toast_save@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_save@3x.png"; sourceTree = "<group>"; };
-		F5C1843F737F1EC8B7412D0352C8895E /* libQWToast.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libQWToast.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5D9755ACE9E918610B88DC873816784 /* libPods-QWToast_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QWToast_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8EC9F15347869B0FE47E486B54E8FC5 /* toast_fail@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "toast_fail@2x.png"; sourceTree = "<group>"; };
-		FB35A0FF9F71EEDB1E5DD8BB3A16060F /* Pods-QWToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QWToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FC2263C67A72EE6B1656FCA0E447ED17 /* NoteBanner+QWDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NoteBanner+QWDrawer.m"; sourceTree = "<group>"; };
+		08AED02F81C29BEE711D378CFB204804 /* RJFToast-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJFToast-umbrella.h"; sourceTree = "<group>"; };
+		0C19C5F9B43245AAE7C6CE8263A016EA /* toast_fail_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_fail_blue@3x.png"; path = "Pod/Assets/toast_fail_blue@3x.png"; sourceTree = "<group>"; };
+		0F83A7772404024D1348D9B912D19731 /* toast_refresh@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_refresh@2x.png"; path = "Pod/Assets/toast_refresh@2x.png"; sourceTree = "<group>"; };
+		120FFCE2E2ED9C53F736875893588ADE /* Pods-RJFToast_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJFToast_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		12852C34DFE40E9B6E0CAAA010AD207F /* RJFToast.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RJFToast.modulemap; sourceTree = "<group>"; };
+		13E571A48A47A4A6DA7894B46EEA77D1 /* Pods-RJFToast_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJFToast_Example-resources.sh"; sourceTree = "<group>"; };
+		185223DAA7F7930AE4243B7D6F80E56C /* icon_arrow_white.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = icon_arrow_white.png; path = Pod/Assets/icon_arrow_white.png; sourceTree = "<group>"; };
+		185A2E8045BB6A2224486F429FDF2874 /* ACNavBarDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ACNavBarDrawer.m; path = Pod/Classes/ACNavBarDrawer.m; sourceTree = "<group>"; };
+		20AED1ECF577A40811C269103D3B77B0 /* icon_arrow_white@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_arrow_white@3x.png"; path = "Pod/Assets/icon_arrow_white@3x.png"; sourceTree = "<group>"; };
+		24F98173C9400AB85E10659D7E43C069 /* Pods-RJFToast_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJFToast_Tests-resources.sh"; sourceTree = "<group>"; };
+		2C79AD05A19F7D64320A1FF52999626C /* toast_success.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toast_success.png; path = Pod/Assets/toast_success.png; sourceTree = "<group>"; };
+		310ED3E5ECF92604EEE058E094E149A8 /* toast_save.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toast_save.png; path = Pod/Assets/toast_save.png; sourceTree = "<group>"; };
+		3706FBE8E2A0E6232333E298F680E029 /* toast_save@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_save@3x.png"; path = "Pod/Assets/toast_save@3x.png"; sourceTree = "<group>"; };
+		37EAB81A7E6A09E59C2BEE838456FEB2 /* toast_refresh_blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toast_refresh_blue.png; path = Pod/Assets/toast_refresh_blue.png; sourceTree = "<group>"; };
+		3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		40564A9DEECCF9A199B334867FCB173D /* Pods-RJFToast_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJFToast_Example-dummy.m"; sourceTree = "<group>"; };
+		47F46A58B1BEB9D7CC65BBAF0651446B /* Pods-RJFToast_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RJFToast_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FAB9B3EF3F039D7C21E90243833F09A /* NoteBanner.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = NoteBanner.m; path = Pod/Classes/NoteBanner.m; sourceTree = "<group>"; };
+		50ACDD7666A40706DADF0AE01CFBDB36 /* Pods-RJFToast_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFToast_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		551EAFF0DC0BAD1B2505B445EB71A7EC /* toast_fail_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_fail_blue@2x.png"; path = "Pod/Assets/toast_fail_blue@2x.png"; sourceTree = "<group>"; };
+		58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		59AA41FEC85A00F7321C92005D932742 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A50D403E48C55134A1BDDE36D8FE214 /* Pods-RJFToast_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RJFToast_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A825CFA6D3B16E2D654712851A9CDF3 /* toast_talk.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toast_talk.png; path = Pod/Assets/toast_talk.png; sourceTree = "<group>"; };
+		5B5C65687B98D1264C0DD1DA2FDE7675 /* toast_fail@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_fail@3x.png"; path = "Pod/Assets/toast_fail@3x.png"; sourceTree = "<group>"; };
+		5F5E925527A7BDD045687B8E93D666B8 /* RJFToast.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RJFToast.xcconfig; sourceTree = "<group>"; };
+		60A54FAB43342FFD5C8009B6751EE75F /* Pods-RJFToast_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJFToast_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		63BFD53931326C8698A76B8F0B0D4D39 /* BannerMananger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BannerMananger.h; path = Pod/Classes/BannerMananger.h; sourceTree = "<group>"; };
+		659FB7DC8E37619B4A5DC919EFD84F34 /* toast_fail.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toast_fail.png; path = Pod/Assets/toast_fail.png; sourceTree = "<group>"; };
+		68285DB2EBDED67ACDD6E57930C2B2A4 /* Pods-RJFToast_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RJFToast_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		79646EF9757193A63D5C2D387F0AE6BD /* Pods-RJFToast_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RJFToast_Example.modulemap"; sourceTree = "<group>"; };
+		81DB81AEDCC943078B425DB234F13F2E /* toast_success@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_success@2x.png"; path = "Pod/Assets/toast_success@2x.png"; sourceTree = "<group>"; };
+		81E942AF6AFD56FFF7562558239F58EA /* toast_refresh@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_refresh@3x.png"; path = "Pod/Assets/toast_refresh@3x.png"; sourceTree = "<group>"; };
+		8328432786C72E89DC0BCAF5B453D50B /* RJFToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RJFToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85F5E015005331D218BC70C1E6085307 /* Pods_RJFToast_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJFToast_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		869B5D08B4CF1F601F80325209B9EE10 /* Pods-RJFToast_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJFToast_Example-umbrella.h"; sourceTree = "<group>"; };
+		8B94B645011B7E18DEA2A2350CA13649 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		907E6A0B94620104A6A806609C688986 /* NoteBanner+QWDrawer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NoteBanner+QWDrawer.m"; path = "Pod/Classes/NoteBanner+QWDrawer.m"; sourceTree = "<group>"; };
+		91C2A2B845D0861F1736CCEB7D59B6B8 /* toast_talk@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_talk@2x.png"; path = "Pod/Assets/toast_talk@2x.png"; sourceTree = "<group>"; };
+		931030F9A7F9F3888A04022B6BD77EA5 /* Pods-RJFToast_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RJFToast_Tests-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E9AE2BA38EE5A3F12065E8E14671F63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0E3901E3576B7D1C7E239E91E170378 /* BannerMananger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BannerMananger.m; path = Pod/Classes/BannerMananger.m; sourceTree = "<group>"; };
+		B2DAF3AD9BC056B3B6A028AE1A3C0B73 /* toast_refresh.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toast_refresh.png; path = Pod/Assets/toast_refresh.png; sourceTree = "<group>"; };
+		B3ADDFAFBFE4EC526EB5D41813DE3D90 /* toast_fail@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_fail@2x.png"; path = "Pod/Assets/toast_fail@2x.png"; sourceTree = "<group>"; };
+		B3D715AA56E8F627A60C9528953E102D /* toast_fail_blue.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toast_fail_blue.png; path = Pod/Assets/toast_fail_blue.png; sourceTree = "<group>"; };
+		B501E449634C7F6B9B0C4C7D5155540A /* RJFToast-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RJFToast-dummy.m"; sourceTree = "<group>"; };
+		B5F568CD848570033324286203E23685 /* Pods-RJFToast_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RJFToast_Tests.modulemap"; sourceTree = "<group>"; };
+		B8436533CEC029288113A22556AA9D09 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		B84D6742E51F0995D19EF368D842357D /* RJFToast-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RJFToast-prefix.pch"; sourceTree = "<group>"; };
+		B8544F55EBF2E3FA55F1E66D4314E3F5 /* icon_arrow_white@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_arrow_white@2x.png"; path = "Pod/Assets/icon_arrow_white@2x.png"; sourceTree = "<group>"; };
+		BC31CFEAC973EE4C97296ADD5B8BCFED /* toast_settings@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_settings@3x.png"; path = "Pod/Assets/toast_settings@3x.png"; sourceTree = "<group>"; };
+		BC784FEE0643774A5FCDBB50C170E150 /* toast_success@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_success@3x.png"; path = "Pod/Assets/toast_success@3x.png"; sourceTree = "<group>"; };
+		C14D964052D36EADA3E71B83D79704B6 /* NoteBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NoteBanner.h; path = Pod/Classes/NoteBanner.h; sourceTree = "<group>"; };
+		CC1AEC280BC38B64935C90817775198D /* QWToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QWToast.h; path = Pod/Classes/QWToast.h; sourceTree = "<group>"; };
+		CEAEBF7083BC61778C2F06660815AB30 /* Pods-RJFToast_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFToast_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D2349CA4930B818163E4F9F01BC8E0C3 /* ACNavBarDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ACNavBarDrawer.h; path = Pod/Classes/ACNavBarDrawer.h; sourceTree = "<group>"; };
+		D5870138FE989E3158E2B02C8FD1BDBA /* Pods-RJFToast_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFToast_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D58AC8169E91978AEE97324C68AC0D70 /* Pods-RJFToast_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RJFToast_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5FCBECB2B086CFA6FFF130B3F53BEC4 /* toast_settings.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = toast_settings.png; path = Pod/Assets/toast_settings.png; sourceTree = "<group>"; };
+		D5FEAC50A01E375308BC41A1429E7628 /* toast_refresh_blue@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_refresh_blue@2x.png"; path = "Pod/Assets/toast_refresh_blue@2x.png"; sourceTree = "<group>"; };
+		D8F938D086C65E04659AC2C02764E08F /* Pods-RJFToast_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RJFToast_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DA08550C9DE35A3DD89C1E0162288605 /* Pods_RJFToast_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJFToast_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA99196DC152F42BFE957E0F59C4EFE2 /* Pods-RJFToast_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RJFToast_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E594EECF5A57530B52AAD151687787B6 /* toast_settings@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_settings@2x.png"; path = "Pod/Assets/toast_settings@2x.png"; sourceTree = "<group>"; };
+		EC1F315F47A8C3B8082E6F7BBEE6E5B7 /* toast_talk@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_talk@3x.png"; path = "Pod/Assets/toast_talk@3x.png"; sourceTree = "<group>"; };
+		EDBC04ECE33497D672C78572C0D94FC9 /* toast_save@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_save@2x.png"; path = "Pod/Assets/toast_save@2x.png"; sourceTree = "<group>"; };
+		F24E8601A709D3CFC6B2670063219379 /* NoteBanner+QWDrawer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NoteBanner+QWDrawer.h"; path = "Pod/Classes/NoteBanner+QWDrawer.h"; sourceTree = "<group>"; };
+		FC44B86767C3FBCF1064EE172A9C7010 /* toast_refresh_blue@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "toast_refresh_blue@3x.png"; path = "Pod/Assets/toast_refresh_blue@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7798F3CF5B60A48E812303D5ADBED860 /* Frameworks */ = {
+		1A0E205CF3A7510BC9B8692D8F0D0A48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3AB881D0D7EEC6F375CCAC842E59642 /* Foundation.framework in Frameworks */,
+				CDDC28D291D96ACB90284651EB85F6E2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8323CF4A026D54DD85ACF4F25BEA8936 /* Frameworks */ = {
+		72B6F08524FB3B145EF27CD56749589E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3D1A7D47B0DFDD3096B36D9C8C3E7FA /* Foundation.framework in Frameworks */,
+				2D065E87A9F904B3A23B91DE74F50021 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		85C3B015F3BD1CE7CF050D7035931C79 /* Frameworks */ = {
+		D87125CD9CEE7CF23F648DC71B5D7DAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97D1F4ADFE912143E8E25811F078E942 /* Foundation.framework in Frameworks */,
-				7E26869224C608BC8B20A1E72628A88F /* UIKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A813F46CD42C1E709956431DB0C30215 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				ABBE31943D24378AAE4B43D922D6F8E8 /* Foundation.framework in Frameworks */,
+				2C4250C0656EF192B5C9644ACE5AEA22 /* MapKit.framework in Frameworks */,
+				A7157D63AA3AE8C63E7CDAAF1B6E5B7F /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D9E47A48523CE8C07D785E15C775C3E /* Pod */ = {
+		07CA18FE8C83AB842FEC94834B00A749 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AA8D5FEC347FA231E44EF0A56A1F76F9 /* Classes */,
+				AAE650A65245E59241D016382D7E4868 /* RJFToast */,
 			);
-			path = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
-				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1E375090EB50D8254811D3AE541499CF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */,
-				E78EC0E8A9B3233D5949BD15D062B370 /* QWToast-dummy.m */,
-				BB12B0F9612C008954F571CE0E632D34 /* QWToast-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QWToast";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				18340F12838DEE43507667CC74401EB1 /* iOS */,
+				5013620A7162A5C7CFF94512DF9CF854 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		47B1894E4C8E7D751647B6565CF4C318 /* Resources */ = {
+		3BE514A1D64ECD515B5C20603F3F475C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A78FEA2AA536A6C862E2B652C759F94 /* Pod */,
+				85F5E015005331D218BC70C1E6085307 /* Pods_RJFToast_Example.framework */,
+				DA08550C9DE35A3DD89C1E0162288605 /* Pods_RJFToast_Tests.framework */,
+				8328432786C72E89DC0BCAF5B453D50B /* RJFToast.framework */,
 			);
-			name = Resources;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		6A78FEA2AA536A6C862E2B652C759F94 /* Pod */ = {
+		5013620A7162A5C7CFF94512DF9CF854 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				A3E5D4CD5DBA1594839882D307008266 /* Assets */,
+				3AC2701612314717790951FEC5AD9A35 /* Foundation.framework */,
+				B8436533CEC029288113A22556AA9D09 /* MapKit.framework */,
+				58397B5B5BC9E2BDF8AFBC55A6A6AC49 /* UIKit.framework */,
 			);
-			path = Pod;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		6F091E2276CA759F85F8F330F790B1AC /* Pods-QWToast_Example */ = {
+		656198D60AC26A39DA1D428BD5907D13 /* Pods-RJFToast_Example */ = {
 			isa = PBXGroup;
 			children = (
-				5E0D87597E18348FAEA9C4CAF90BCAF0 /* Pods-QWToast_Example-acknowledgements.markdown */,
-				A31DFE50C849A8DE17130F2EA94C50F0 /* Pods-QWToast_Example-acknowledgements.plist */,
-				905981490A39471B9D71ABE48E54EF0E /* Pods-QWToast_Example-dummy.m */,
-				5A4F9BA7534F0E8754C8DE2751609DB7 /* Pods-QWToast_Example-frameworks.sh */,
-				B7748C3201C313666FBC5EC445861E0B /* Pods-QWToast_Example-resources.sh */,
-				B0ED9144620B43001C97DA0ED33AEE1B /* Pods-QWToast_Example.debug.xcconfig */,
-				641194E06693197876757BCD7EBDF3D0 /* Pods-QWToast_Example.release.xcconfig */,
+				8B94B645011B7E18DEA2A2350CA13649 /* Info.plist */,
+				79646EF9757193A63D5C2D387F0AE6BD /* Pods-RJFToast_Example.modulemap */,
+				5A50D403E48C55134A1BDDE36D8FE214 /* Pods-RJFToast_Example-acknowledgements.markdown */,
+				60A54FAB43342FFD5C8009B6751EE75F /* Pods-RJFToast_Example-acknowledgements.plist */,
+				40564A9DEECCF9A199B334867FCB173D /* Pods-RJFToast_Example-dummy.m */,
+				DA99196DC152F42BFE957E0F59C4EFE2 /* Pods-RJFToast_Example-frameworks.sh */,
+				13E571A48A47A4A6DA7894B46EEA77D1 /* Pods-RJFToast_Example-resources.sh */,
+				869B5D08B4CF1F601F80325209B9EE10 /* Pods-RJFToast_Example-umbrella.h */,
+				D5870138FE989E3158E2B02C8FD1BDBA /* Pods-RJFToast_Example.debug.xcconfig */,
+				CEAEBF7083BC61778C2F06660815AB30 /* Pods-RJFToast_Example.release.xcconfig */,
 			);
-			name = "Pods-QWToast_Example";
-			path = "Target Support Files/Pods-QWToast_Example";
-			sourceTree = "<group>";
-		};
-		7AABA936D815AF2C9836EA68BFD0E4F6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CB470ED9A6A1688EEBB72A1FC75365C2 /* QWToast */,
-			);
-			name = "Development Pods";
+			name = "Pods-RJFToast_Example";
+			path = "Target Support Files/Pods-RJFToast_Example";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				7AABA936D815AF2C9836EA68BFD0E4F6 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				9E80FC8EA9A8E3C1689D1E745B5DCA0A /* Products */,
-				AEF1D3C7770FEB8E8DDC29BF4E7AB9EF /* Targets Support Files */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				07CA18FE8C83AB842FEC94834B00A749 /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				3BE514A1D64ECD515B5C20603F3F475C /* Products */,
+				E69F8E009D5AEF9C0372B00993217189 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		90199235EB0A835DE219B2F36138390A /* Pods-QWToast_Tests */ = {
+		96B9F58F9AFBEC8A9FE6F303E18935F0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				62751B1A63CABB77569B6997850F9618 /* Pods-QWToast_Tests-acknowledgements.markdown */,
-				4647EFE9B4D558333D01EF14689E4F2A /* Pods-QWToast_Tests-acknowledgements.plist */,
-				256C009C2C526D82FA62F9697228518B /* Pods-QWToast_Tests-dummy.m */,
-				1F1501C06171C2B11DFF131BF1276EF0 /* Pods-QWToast_Tests-frameworks.sh */,
-				03C972C0C0F59F02B12F2389BD22F1FD /* Pods-QWToast_Tests-resources.sh */,
-				8D6F0DBB98B05F868DDE5CE758936599 /* Pods-QWToast_Tests.debug.xcconfig */,
-				FB35A0FF9F71EEDB1E5DD8BB3A16060F /* Pods-QWToast_Tests.release.xcconfig */,
+				185223DAA7F7930AE4243B7D6F80E56C /* icon_arrow_white.png */,
+				B8544F55EBF2E3FA55F1E66D4314E3F5 /* icon_arrow_white@2x.png */,
+				20AED1ECF577A40811C269103D3B77B0 /* icon_arrow_white@3x.png */,
+				659FB7DC8E37619B4A5DC919EFD84F34 /* toast_fail.png */,
+				B3ADDFAFBFE4EC526EB5D41813DE3D90 /* toast_fail@2x.png */,
+				5B5C65687B98D1264C0DD1DA2FDE7675 /* toast_fail@3x.png */,
+				B3D715AA56E8F627A60C9528953E102D /* toast_fail_blue.png */,
+				551EAFF0DC0BAD1B2505B445EB71A7EC /* toast_fail_blue@2x.png */,
+				0C19C5F9B43245AAE7C6CE8263A016EA /* toast_fail_blue@3x.png */,
+				B2DAF3AD9BC056B3B6A028AE1A3C0B73 /* toast_refresh.png */,
+				0F83A7772404024D1348D9B912D19731 /* toast_refresh@2x.png */,
+				81E942AF6AFD56FFF7562558239F58EA /* toast_refresh@3x.png */,
+				37EAB81A7E6A09E59C2BEE838456FEB2 /* toast_refresh_blue.png */,
+				D5FEAC50A01E375308BC41A1429E7628 /* toast_refresh_blue@2x.png */,
+				FC44B86767C3FBCF1064EE172A9C7010 /* toast_refresh_blue@3x.png */,
+				310ED3E5ECF92604EEE058E094E149A8 /* toast_save.png */,
+				EDBC04ECE33497D672C78572C0D94FC9 /* toast_save@2x.png */,
+				3706FBE8E2A0E6232333E298F680E029 /* toast_save@3x.png */,
+				D5FCBECB2B086CFA6FFF130B3F53BEC4 /* toast_settings.png */,
+				E594EECF5A57530B52AAD151687787B6 /* toast_settings@2x.png */,
+				BC31CFEAC973EE4C97296ADD5B8BCFED /* toast_settings@3x.png */,
+				2C79AD05A19F7D64320A1FF52999626C /* toast_success.png */,
+				81DB81AEDCC943078B425DB234F13F2E /* toast_success@2x.png */,
+				BC784FEE0643774A5FCDBB50C170E150 /* toast_success@3x.png */,
+				5A825CFA6D3B16E2D654712851A9CDF3 /* toast_talk.png */,
+				91C2A2B845D0861F1736CCEB7D59B6B8 /* toast_talk@2x.png */,
+				EC1F315F47A8C3B8082E6F7BBEE6E5B7 /* toast_talk@3x.png */,
 			);
-			name = "Pods-QWToast_Tests";
-			path = "Target Support Files/Pods-QWToast_Tests";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		9E80FC8EA9A8E3C1689D1E745B5DCA0A /* Products */ = {
+		AAE650A65245E59241D016382D7E4868 /* RJFToast */ = {
 			isa = PBXGroup;
 			children = (
-				F5D9755ACE9E918610B88DC873816784 /* libPods-QWToast_Example.a */,
-				774DCEFEAB68C9B77824DA6AC7637C31 /* libPods-QWToast_Tests.a */,
-				F5C1843F737F1EC8B7412D0352C8895E /* libQWToast.a */,
-				E3E84FB539C149A65471D49F5CE4433E /* QWToast.bundle */,
+				D2349CA4930B818163E4F9F01BC8E0C3 /* ACNavBarDrawer.h */,
+				185A2E8045BB6A2224486F429FDF2874 /* ACNavBarDrawer.m */,
+				63BFD53931326C8698A76B8F0B0D4D39 /* BannerMananger.h */,
+				B0E3901E3576B7D1C7E239E91E170378 /* BannerMananger.m */,
+				C14D964052D36EADA3E71B83D79704B6 /* NoteBanner.h */,
+				4FAB9B3EF3F039D7C21E90243833F09A /* NoteBanner.m */,
+				F24E8601A709D3CFC6B2670063219379 /* NoteBanner+QWDrawer.h */,
+				907E6A0B94620104A6A806609C688986 /* NoteBanner+QWDrawer.m */,
+				CC1AEC280BC38B64935C90817775198D /* QWToast.h */,
+				96B9F58F9AFBEC8A9FE6F303E18935F0 /* Resources */,
+				DEA165C3C670307B37A0EA650ADBD17D /* Support Files */,
 			);
-			name = Products;
+			name = RJFToast;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		A3E5D4CD5DBA1594839882D307008266 /* Assets */ = {
+		DEA165C3C670307B37A0EA650ADBD17D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				62200EAF1D1B9B6256D5F18123728622 /* icon_arrow_white.png */,
-				86EBC06BE4847B21257ADD71D2A41F58 /* icon_arrow_white@2x.png */,
-				8D2C9C6E38F37AD6F8EC6AE9BDECD588 /* icon_arrow_white@3x.png */,
-				7DB8CCC686C3B40BFE05FEC90178238A /* toast_fail.png */,
-				F8EC9F15347869B0FE47E486B54E8FC5 /* toast_fail@2x.png */,
-				1CF1D8CB217591F5190916697084BE06 /* toast_fail@3x.png */,
-				42DD6652DD9D4C59BF03A30D15BDCF82 /* toast_fail_blue.png */,
-				D7A07B7DD7E935AA6F9A787CF456C31A /* toast_fail_blue@2x.png */,
-				D695804E1B52BBE58F4DC64B57783C9C /* toast_fail_blue@3x.png */,
-				744430151D4F47219AA5C1B11A25A87D /* toast_refresh.png */,
-				C0F152C75E0309A8FBE9961E1FFC7892 /* toast_refresh@2x.png */,
-				9591AA327A1D6077DB434F2A0DF6E2B5 /* toast_refresh@3x.png */,
-				6FE72E310ACDCEC49FBFD973BE7693A0 /* toast_refresh_blue.png */,
-				1C19466882CC772D7ACFF8518CED6F00 /* toast_refresh_blue@2x.png */,
-				7CFF338C4DA18995117156CB569AE6E0 /* toast_refresh_blue@3x.png */,
-				3E4FBF730493D7080E6A83693C315C95 /* toast_save.png */,
-				74C95FCD9978E94C4860FE46EB2CB75B /* toast_save@2x.png */,
-				EAC5453865C0FA55AFDA6554E03534EE /* toast_save@3x.png */,
-				62FBAA49E75028D4F944B90723E88743 /* toast_settings.png */,
-				D015DFB38BC3FC6AAD9281BC882CE402 /* toast_settings@2x.png */,
-				73DD6A321A145912F08CD8FBEE3CF687 /* toast_settings@3x.png */,
-				C002DFB7A6EE09D253199FAC0579917B /* toast_success.png */,
-				BCAAC5FC2DAF4C10D8C42658FB73207C /* toast_success@2x.png */,
-				23849130933A9F732CC1D1617FF8CB64 /* toast_success@3x.png */,
-				9C95F5F5E30939528501A61E0AEEC3EE /* toast_talk.png */,
-				532819FE319FE0964B853C899CC1C0F8 /* toast_talk@2x.png */,
-				4E60A7DCF56CA9220483DC67F3917709 /* toast_talk@3x.png */,
+				9E9AE2BA38EE5A3F12065E8E14671F63 /* Info.plist */,
+				12852C34DFE40E9B6E0CAAA010AD207F /* RJFToast.modulemap */,
+				5F5E925527A7BDD045687B8E93D666B8 /* RJFToast.xcconfig */,
+				B501E449634C7F6B9B0C4C7D5155540A /* RJFToast-dummy.m */,
+				B84D6742E51F0995D19EF368D842357D /* RJFToast-prefix.pch */,
+				08AED02F81C29BEE711D378CFB204804 /* RJFToast-umbrella.h */,
 			);
-			path = Assets;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RJFToast";
 			sourceTree = "<group>";
 		};
-		AA8D5FEC347FA231E44EF0A56A1F76F9 /* Classes */ = {
+		E537F4DB15EE87B54A07EAD4D88B1190 /* Pods-RJFToast_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B6A1A9241E085AC78D137731B2659AAD /* ACNavBarDrawer.h */,
-				95C36F200EAAEFD1436BB521B32D6C29 /* ACNavBarDrawer.m */,
-				9757A9075585BEC49585F64F33321A62 /* BannerMananger.h */,
-				3DAFE59BF75E2A7EE81C0DA5576FCEA2 /* BannerMananger.m */,
-				9F15A1AF616D9594E9026069147366DF /* NoteBanner.h */,
-				59484CEBF2ADC5AAC9B24BB493558E88 /* NoteBanner.m */,
-				1CF78F60323A45CE4131EFB9B3F3FCAA /* NoteBanner+QWDrawer.h */,
-				FC2263C67A72EE6B1656FCA0E447ED17 /* NoteBanner+QWDrawer.m */,
-				0C30E1BB79D43D0641386CA23EF8C042 /* QWToast.h */,
+				59AA41FEC85A00F7321C92005D932742 /* Info.plist */,
+				B5F568CD848570033324286203E23685 /* Pods-RJFToast_Tests.modulemap */,
+				47F46A58B1BEB9D7CC65BBAF0651446B /* Pods-RJFToast_Tests-acknowledgements.markdown */,
+				68285DB2EBDED67ACDD6E57930C2B2A4 /* Pods-RJFToast_Tests-acknowledgements.plist */,
+				931030F9A7F9F3888A04022B6BD77EA5 /* Pods-RJFToast_Tests-dummy.m */,
+				120FFCE2E2ED9C53F736875893588ADE /* Pods-RJFToast_Tests-frameworks.sh */,
+				24F98173C9400AB85E10659D7E43C069 /* Pods-RJFToast_Tests-resources.sh */,
+				D8F938D086C65E04659AC2C02764E08F /* Pods-RJFToast_Tests-umbrella.h */,
+				50ACDD7666A40706DADF0AE01CFBDB36 /* Pods-RJFToast_Tests.debug.xcconfig */,
+				D58AC8169E91978AEE97324C68AC0D70 /* Pods-RJFToast_Tests.release.xcconfig */,
 			);
-			path = Classes;
+			name = "Pods-RJFToast_Tests";
+			path = "Target Support Files/Pods-RJFToast_Tests";
 			sourceTree = "<group>";
 		};
-		AEF1D3C7770FEB8E8DDC29BF4E7AB9EF /* Targets Support Files */ = {
+		E69F8E009D5AEF9C0372B00993217189 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6F091E2276CA759F85F8F330F790B1AC /* Pods-QWToast_Example */,
-				90199235EB0A835DE219B2F36138390A /* Pods-QWToast_Tests */,
+				656198D60AC26A39DA1D428BD5907D13 /* Pods-RJFToast_Example */,
+				E537F4DB15EE87B54A07EAD4D88B1190 /* Pods-RJFToast_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		CB470ED9A6A1688EEBB72A1FC75365C2 /* QWToast */ = {
-			isa = PBXGroup;
-			children = (
-				0D9E47A48523CE8C07D785E15C775C3E /* Pod */,
-				47B1894E4C8E7D751647B6565CF4C318 /* Resources */,
-				1E375090EB50D8254811D3AE541499CF /* Support Files */,
-			);
-			name = QWToast;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		497C5A6AF067CCCAD3D186ECFBE0155E /* Headers */ = {
+		9C84FC64A98F0684A4A9D7839082095C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9A0A364E9DBCC6921755A164D367A0C /* ACNavBarDrawer.h in Headers */,
-				B1440B624EC8BA8FDB07BA9B3F5E8B61 /* BannerMananger.h in Headers */,
-				85A4E4999B81E010D0818FF7CEAA8A10 /* NoteBanner+QWDrawer.h in Headers */,
-				C5A2E3490050B78A32B924067FD0B02A /* NoteBanner.h in Headers */,
-				334AC8931E2517EC35E6DAF5C4FD341A /* QWToast.h in Headers */,
+				6DD4E7D6B84094DA885449268B7E2071 /* Pods-RJFToast_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F206BC44A1FADA0669BA6A0E6C8A91 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E4C6C870FEDD800D4409990044A9B64 /* Pods-RJFToast_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8B6AE65ED1318CAB97511AD17A504BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A539D98F138674AB4BAFC90A89FC8CC9 /* ACNavBarDrawer.h in Headers */,
+				74B31F462C136352DEEA7CF7584376C1 /* BannerMananger.h in Headers */,
+				95031AC60BAE9A59EC19B35A6815F510 /* NoteBanner+QWDrawer.h in Headers */,
+				21C65BEDBC649CD2185D0C148BFEDFC0 /* NoteBanner.h in Headers */,
+				0FADCBB133C3C2F8442E1FBE74A16DBF /* QWToast.h in Headers */,
+				6E8BAABFD815A23E5B56018F6A127D80 /* RJFToast-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		12061990F0AA0904A94F881CF331909C /* QWToast-QWToast */ = {
+		5816B9F6C3C7B42DF153915E5224C78E /* Pods-RJFToast_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F4FFB47F320A5AE81E6310EC5C49AD0A /* Build configuration list for PBXNativeTarget "QWToast-QWToast" */;
+			buildConfigurationList = 2224B5A6634253A7954DA7B272F0C3EA /* Build configuration list for PBXNativeTarget "Pods-RJFToast_Tests" */;
 			buildPhases = (
-				B3588CC9039C8803C091BC9AA9F69500 /* Sources */,
-				A813F46CD42C1E709956431DB0C30215 /* Frameworks */,
-				CBBEEA480DDAB569CDA18E04258D3E35 /* Resources */,
+				147E632CE9B9CA637B669777CEFF1708 /* Sources */,
+				1A0E205CF3A7510BC9B8692D8F0D0A48 /* Frameworks */,
+				A3F206BC44A1FADA0669BA6A0E6C8A91 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "QWToast-QWToast";
-			productName = "QWToast-QWToast";
-			productReference = E3E84FB539C149A65471D49F5CE4433E /* QWToast.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "Pods-RJFToast_Tests";
+			productName = "Pods-RJFToast_Tests";
+			productReference = DA08550C9DE35A3DD89C1E0162288605 /* Pods_RJFToast_Tests.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		2C6A466AD937672E4B9F538D43DCF830 /* QWToast */ = {
+		89A220CA864F8C2EDA143F7D37450B21 /* RJFToast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF46B7B07371B4F81D9F0C702ED37B97 /* Build configuration list for PBXNativeTarget "QWToast" */;
+			buildConfigurationList = 87FDE788B648D70A3ED130FC08535B95 /* Build configuration list for PBXNativeTarget "RJFToast" */;
 			buildPhases = (
-				CD20D24FE7161DF0A7DD81A5223C2DB8 /* Sources */,
-				85C3B015F3BD1CE7CF050D7035931C79 /* Frameworks */,
-				497C5A6AF067CCCAD3D186ECFBE0155E /* Headers */,
+				5505D34C93B44AB0330CFC896D812531 /* Sources */,
+				D87125CD9CEE7CF23F648DC71B5D7DAA /* Frameworks */,
+				E8B6AE65ED1318CAB97511AD17A504BB /* Headers */,
+				2AF9BD485D39091D7F5E4B88F5F3E6C4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8F1F94AF697F743F6A261851A66FFE55 /* PBXTargetDependency */,
 			);
-			name = QWToast;
-			productName = QWToast;
-			productReference = F5C1843F737F1EC8B7412D0352C8895E /* libQWToast.a */;
-			productType = "com.apple.product-type.library.static";
+			name = RJFToast;
+			productName = RJFToast;
+			productReference = 8328432786C72E89DC0BCAF5B453D50B /* RJFToast.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		A23678EF7947E8F4275F0D85C5588B38 /* Pods-QWToast_Example */ = {
+		AD13063527E866E8CEA1D92BD490FFF3 /* Pods-RJFToast_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E7CB1F882C9C67636843250C1968A0FC /* Build configuration list for PBXNativeTarget "Pods-QWToast_Example" */;
+			buildConfigurationList = D64971F456228D9B416B769BFE0856BD /* Build configuration list for PBXNativeTarget "Pods-RJFToast_Example" */;
 			buildPhases = (
-				12291B5DF9B19ADF7CF4455BD22A38CC /* Sources */,
-				8323CF4A026D54DD85ACF4F25BEA8936 /* Frameworks */,
+				588C9EBFB1CE22DBFD04178668F5AB0E /* Sources */,
+				72B6F08524FB3B145EF27CD56749589E /* Frameworks */,
+				9C84FC64A98F0684A4A9D7839082095C /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				78744332BB76AA886D381EAAAA665D60 /* PBXTargetDependency */,
+				795B8DF1B1D441DB784428EC07ED5C6E /* PBXTargetDependency */,
 			);
-			name = "Pods-QWToast_Example";
-			productName = "Pods-QWToast_Example";
-			productReference = F5D9755ACE9E918610B88DC873816784 /* libPods-QWToast_Example.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		D26301825A9B8E86A1269BB9C5289185 /* Pods-QWToast_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4F519BC5663454CC6673BAEA6567B1CC /* Build configuration list for PBXNativeTarget "Pods-QWToast_Tests" */;
-			buildPhases = (
-				A4E7171C83DE9765628BEC3F6482C85E /* Sources */,
-				7798F3CF5B60A48E812303D5ADBED860 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				35247B629859E989E14ABFA0A1E2803F /* PBXTargetDependency */,
-			);
-			name = "Pods-QWToast_Tests";
-			productName = "Pods-QWToast_Tests";
-			productReference = 774DCEFEAB68C9B77824DA6AC7637C31 /* libPods-QWToast_Tests.a */;
-			productType = "com.apple.product-type.library.static";
+			name = "Pods-RJFToast_Example";
+			productName = "Pods-RJFToast_Example";
+			productReference = 85F5E015005331D218BC70C1E6085307 /* Pods_RJFToast_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -450,8 +421,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -461,170 +432,137 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9E80FC8EA9A8E3C1689D1E745B5DCA0A /* Products */;
+			productRefGroup = 3BE514A1D64ECD515B5C20603F3F475C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A23678EF7947E8F4275F0D85C5588B38 /* Pods-QWToast_Example */,
-				D26301825A9B8E86A1269BB9C5289185 /* Pods-QWToast_Tests */,
-				2C6A466AD937672E4B9F538D43DCF830 /* QWToast */,
-				12061990F0AA0904A94F881CF331909C /* QWToast-QWToast */,
+				AD13063527E866E8CEA1D92BD490FFF3 /* Pods-RJFToast_Example */,
+				5816B9F6C3C7B42DF153915E5224C78E /* Pods-RJFToast_Tests */,
+				89A220CA864F8C2EDA143F7D37450B21 /* RJFToast */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CBBEEA480DDAB569CDA18E04258D3E35 /* Resources */ = {
+		2AF9BD485D39091D7F5E4B88F5F3E6C4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5AF4CB93B0B5626D7C365648A61395D /* icon_arrow_white.png in Resources */,
-				28EBC6ADD4A2FFCD667EFF7F72F4AB10 /* icon_arrow_white@2x.png in Resources */,
-				DCD711C47CBB2A408F58AAA15E977308 /* icon_arrow_white@3x.png in Resources */,
-				57E3964A095B68A8B002DC9C04F67B19 /* toast_fail.png in Resources */,
-				562654561FD41694BC65B6788585A455 /* toast_fail@2x.png in Resources */,
-				682D0774835600E6C840EB3279B21A9B /* toast_fail@3x.png in Resources */,
-				88E6CC6642C435781C8ACC799E9CF69F /* toast_fail_blue.png in Resources */,
-				83E7E566E36969E67011150305A80862 /* toast_fail_blue@2x.png in Resources */,
-				8396DC8CD510DA0C6858DE2CA6FADC7D /* toast_fail_blue@3x.png in Resources */,
-				97893CD1D19D5D0B1DAC602CC83DA9D0 /* toast_refresh.png in Resources */,
-				54579C506AB0049C5656B423482F2BA4 /* toast_refresh@2x.png in Resources */,
-				0D0EA41BA70CEECD5F80418DA6E1E3CF /* toast_refresh@3x.png in Resources */,
-				2E83AC50ED22441F980AA62B2E7D743C /* toast_refresh_blue.png in Resources */,
-				793FA0DFA52C652477B04FD1BB153ECC /* toast_refresh_blue@2x.png in Resources */,
-				E9ECF37D67FAAA12208579F4AB62DBB0 /* toast_refresh_blue@3x.png in Resources */,
-				6699CAA6E92FD293F119BB0D527A55D5 /* toast_save.png in Resources */,
-				4A76521DA39AD6080E055EA7EF9587A5 /* toast_save@2x.png in Resources */,
-				E15D5E3A3D0814CA1F23D03876390F9F /* toast_save@3x.png in Resources */,
-				F9423C0599871480132A4287CDDD4B3E /* toast_settings.png in Resources */,
-				6E5E343D23D2FBBD67DC8192E28BC756 /* toast_settings@2x.png in Resources */,
-				789F17B9316619B5DEB3AC27085A80F4 /* toast_settings@3x.png in Resources */,
-				13572BAF8A04DA6F6A9CD482988EC29F /* toast_success.png in Resources */,
-				DF4BA5CCC140EA36DE16450E894D31A6 /* toast_success@2x.png in Resources */,
-				CEF7364AFB10180D8DF7B987AA807403 /* toast_success@3x.png in Resources */,
-				49A82FE811E897FBB4B70F830A6E9A36 /* toast_talk.png in Resources */,
-				0441A2DF020B642AC58F473B4CFB59CA /* toast_talk@2x.png in Resources */,
-				F75D1066419AB6F00527882B2B519F6E /* toast_talk@3x.png in Resources */,
+				4BD8384FF2E3B13B8AD8545E10EA935D /* icon_arrow_white.png in Resources */,
+				AA3FF0939BE24499B94042F5612A2C2E /* icon_arrow_white@2x.png in Resources */,
+				30467BDBE8B42E9E4C23EEABFC91686C /* icon_arrow_white@3x.png in Resources */,
+				80DC053471491CF51CBC6540B0131282 /* toast_fail.png in Resources */,
+				D83E79F7257EA88543EF083358D2E13D /* toast_fail@2x.png in Resources */,
+				168ADAE1C8CF442E7DC88ADAEBD4EB95 /* toast_fail@3x.png in Resources */,
+				50B0D57B401DBEE812AD3763C5A61FD0 /* toast_fail_blue.png in Resources */,
+				DBFA77D1F318902243A58918665D31C3 /* toast_fail_blue@2x.png in Resources */,
+				F18FAE4406A3E205D4594E0CCE234728 /* toast_fail_blue@3x.png in Resources */,
+				74F66655736EE8E537D928C6D40DF052 /* toast_refresh.png in Resources */,
+				CE63D821E888E0C2F1671B90F493A452 /* toast_refresh@2x.png in Resources */,
+				BF30383BC8EA87D1C862C3C977C476F6 /* toast_refresh@3x.png in Resources */,
+				F8D2B49F1ADAE5B1C2ED9CC7A6C2E7F5 /* toast_refresh_blue.png in Resources */,
+				AA570EE7D7C888C3D079DC268BC7362F /* toast_refresh_blue@2x.png in Resources */,
+				16CBD0FA14D13F46C0ED9F09B6DC88CC /* toast_refresh_blue@3x.png in Resources */,
+				A44EA9FE180FF046153DC5F9D98CDD2E /* toast_save.png in Resources */,
+				CEDD163B5F9FCC6497DB5DA0A17BAA22 /* toast_save@2x.png in Resources */,
+				043DB1C47C2050E53DC79C57DF47A940 /* toast_save@3x.png in Resources */,
+				1C950CFEE5D841A3EAE28189F16E7659 /* toast_settings.png in Resources */,
+				02938B508C2CE5A29926D9BE7ED66C05 /* toast_settings@2x.png in Resources */,
+				A93865A972C88C7485A43572613BD029 /* toast_settings@3x.png in Resources */,
+				C02D4886F71C672E594B43D4D7CB258E /* toast_success.png in Resources */,
+				8C2E6346E6AC40E3707E058BD2FD3209 /* toast_success@2x.png in Resources */,
+				321BDD115D558027BF2FF7A023D4169E /* toast_success@3x.png in Resources */,
+				C946B3800E539218C1943B3E555553A1 /* toast_talk.png in Resources */,
+				0892A8A0AF6E87A41224DD56DBCE7511 /* toast_talk@2x.png in Resources */,
+				DDB1584AE2965209F62C7F602A93737B /* toast_talk@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12291B5DF9B19ADF7CF4455BD22A38CC /* Sources */ = {
+		147E632CE9B9CA637B669777CEFF1708 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A2633021B62F1023A9A8C244FAB317D /* Pods-QWToast_Example-dummy.m in Sources */,
+				D35FA40C96EEDF6D793EDC13F48A7BF0 /* Pods-RJFToast_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A4E7171C83DE9765628BEC3F6482C85E /* Sources */ = {
+		5505D34C93B44AB0330CFC896D812531 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16BF5B41E3D93406C51585AB7A7BB5B0 /* Pods-QWToast_Tests-dummy.m in Sources */,
+				179610E4A12E9ABC400D1AFDE0527986 /* ACNavBarDrawer.m in Sources */,
+				4C78B40889A00F1863DCBDDE7631C8FE /* BannerMananger.m in Sources */,
+				2FAD7D1FBAAE2BF7F043A11F2C67872D /* NoteBanner+QWDrawer.m in Sources */,
+				D2A4207578BF14C06D4989AB8ADD825C /* NoteBanner.m in Sources */,
+				B525D5BF82D62650CD9BD48F834AEF66 /* RJFToast-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3588CC9039C8803C091BC9AA9F69500 /* Sources */ = {
+		588C9EBFB1CE22DBFD04178668F5AB0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CD20D24FE7161DF0A7DD81A5223C2DB8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B950B1B9BFA52C702C4338072E757D21 /* ACNavBarDrawer.m in Sources */,
-				71E1746E738DA7B65AC0A88A8E188F09 /* BannerMananger.m in Sources */,
-				45A06636AADA055B524CAD8F37A3306C /* NoteBanner+QWDrawer.m in Sources */,
-				C0D3697D986F8A51378D37434E6E896B /* NoteBanner.m in Sources */,
-				8CA8685C00BFD700505A875F8E79C3CD /* QWToast-dummy.m in Sources */,
+				C9B8E9B52630E6D905E0FA5640D81E03 /* Pods-RJFToast_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		35247B629859E989E14ABFA0A1E2803F /* PBXTargetDependency */ = {
+		795B8DF1B1D441DB784428EC07ED5C6E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = QWToast;
-			target = 2C6A466AD937672E4B9F538D43DCF830 /* QWToast */;
-			targetProxy = 56580F8ADF02C7E1F30F8C0FA6EF788F /* PBXContainerItemProxy */;
-		};
-		78744332BB76AA886D381EAAAA665D60 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = QWToast;
-			target = 2C6A466AD937672E4B9F538D43DCF830 /* QWToast */;
-			targetProxy = 17E5D9877CEB1DE5028ACA34FAD98EBA /* PBXContainerItemProxy */;
-		};
-		8F1F94AF697F743F6A261851A66FFE55 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "QWToast-QWToast";
-			target = 12061990F0AA0904A94F881CF331909C /* QWToast-QWToast */;
-			targetProxy = FB005B1BA14C14338E246FEC1076F24A /* PBXContainerItemProxy */;
+			name = RJFToast;
+			target = 89A220CA864F8C2EDA143F7D37450B21 /* RJFToast */;
+			targetProxy = FF01BC309F380989E0A180A09BD77B40 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+		118709BF4E785CF93D3256A3196E4008 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50ACDD7666A40706DADF0AE01CFBDB36 /* Pods-RJFToast_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		0999C8CAE65A02E865028CF213966DE3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 641194E06693197876757BCD7EBDF3D0 /* Pods-QWToast_Example.release.xcconfig */;
-			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RJFToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MODULEMAP_FILE = "Target Support Files/Pods-RJFToast_Tests/Pods-RJFToast_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RJFToast_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+		1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -632,17 +570,25 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
 					"DEBUG=1",
 					"$(inherited)",
 				);
@@ -653,168 +599,270 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		1906F6E012C192F7A10A9C5FF2462F9E /* Debug */ = {
+		2CEEFF27D342B16AA5097C243E2FF6CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B0ED9144620B43001C97DA0ED33AEE1B /* Pods-QWToast_Example.debug.xcconfig */;
+			baseConfigurationReference = 5F5E925527A7BDD045687B8E93D666B8 /* RJFToast.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RJFToast/RJFToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RJFToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RJFToast/RJFToast.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RJFToast;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		435C61456117A8FD4081990D23EBBD12 /* Debug */ = {
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D6F0DBB98B05F868DDE5CE758936599 /* Pods-QWToast_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MACH_O_TYPE = staticlib;
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		43EB88FB3CF7A127109C97F814655081 /* Release */ = {
+		72CD0942E1BB1222DDC96ED8D5B34027 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FB35A0FF9F71EEDB1E5DD8BB3A16060F /* Pods-QWToast_Tests.release.xcconfig */;
+			baseConfigurationReference = D58AC8169E91978AEE97324C68AC0D70 /* Pods-RJFToast_Tests.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RJFToast_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RJFToast_Tests/Pods-RJFToast_Tests.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RJFToast_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		6FF899D01BE28E3C789D8C53D1BAAEC4 /* Release */ = {
+		8A5ACDC940C6D6B9E0994FA092F0B357 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */;
+			baseConfigurationReference = D5870138FE989E3158E2B02C8FD1BDBA /* Pods-RJFToast_Example.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QWToast/QWToast-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		ABCB541CD3AB2056B8BB2CEFBC932EB0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = QWToast;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		BE33497FFBBC13C9470CF3F1D3C16830 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/QWToast/QWToast-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RJFToast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RJFToast_Example/Pods-RJFToast_Example.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RJFToast_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		DD72BC77499160CE85E12A8C3CC10840 /* Debug */ = {
+		E232FA9BABB5E84A1F16BC24BD199658 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9395A9485BA3751DF0EE0711E1EB19B7 /* QWToast.xcconfig */;
+			baseConfigurationReference = 5F5E925527A7BDD045687B8E93D666B8 /* RJFToast.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = QWToast;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RJFToast/RJFToast-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RJFToast/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RJFToast/RJFToast.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RJFToast;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		EC8A78669F1289770655CBA20D6CF5AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAEBF7083BC61778C2F06660815AB30 /* Pods-RJFToast_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RJFToast_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RJFToast_Example/Pods-RJFToast_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RJFToast_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2224B5A6634253A7954DA7B272F0C3EA /* Build configuration list for PBXNativeTarget "Pods-RJFToast_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				118709BF4E785CF93D3256A3196E4008 /* Debug */,
+				72CD0942E1BB1222DDC96ED8D5B34027 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
-				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+				1C7D17A37D091C98D2F0DD886C3A9320 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4F519BC5663454CC6673BAEA6567B1CC /* Build configuration list for PBXNativeTarget "Pods-QWToast_Tests" */ = {
+		87FDE788B648D70A3ED130FC08535B95 /* Build configuration list for PBXNativeTarget "RJFToast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				435C61456117A8FD4081990D23EBBD12 /* Debug */,
-				43EB88FB3CF7A127109C97F814655081 /* Release */,
+				2CEEFF27D342B16AA5097C243E2FF6CC /* Debug */,
+				E232FA9BABB5E84A1F16BC24BD199658 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF46B7B07371B4F81D9F0C702ED37B97 /* Build configuration list for PBXNativeTarget "QWToast" */ = {
+		D64971F456228D9B416B769BFE0856BD /* Build configuration list for PBXNativeTarget "Pods-RJFToast_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BE33497FFBBC13C9470CF3F1D3C16830 /* Debug */,
-				6FF899D01BE28E3C789D8C53D1BAAEC4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E7CB1F882C9C67636843250C1968A0FC /* Build configuration list for PBXNativeTarget "Pods-QWToast_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1906F6E012C192F7A10A9C5FF2462F9E /* Debug */,
-				0999C8CAE65A02E865028CF213966DE3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F4FFB47F320A5AE81E6310EC5C49AD0A /* Build configuration list for PBXNativeTarget "QWToast-QWToast" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DD72BC77499160CE85E12A8C3CC10840 /* Debug */,
-				ABCB541CD3AB2056B8BB2CEFBC932EB0 /* Release */,
+				8A5ACDC940C6D6B9E0994FA092F0B357 /* Debug */,
+				EC8A78669F1289770655CBA20D6CF5AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

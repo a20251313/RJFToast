@@ -1,0 +1,6 @@
+framework module Pods_RJFToast_Tests {
+  umbrella header "Pods-RJFToast_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
