@@ -1,10 +1,10 @@
+
+//  RJFToastTests.m
+//  RJFToastTests
 //
-//  QWToastTests.m
-//  QWToastTests
-//
-//  Created by ranjingfu on 01/14/2016.
-//  Copyright (c) 2016 ranjingfu. All rights reserved.
-//
+//  Created by a20251313 on 08/14/2017.
+//  Copyright (c) 2017 a20251313. All rights reserved.
+
 
 @import XCTest;
 
